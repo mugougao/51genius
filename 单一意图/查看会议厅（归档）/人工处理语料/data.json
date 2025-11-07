@@ -1,0 +1,162 @@
+[
+  {
+    "user": "查看1楼",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"1楼\"}"
+  },
+  {
+    "user": "查看2楼",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"2楼\"}"
+  },
+  {
+    "user": "查看2楼",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"2楼\"}"
+  },
+  {
+    "user": "查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "查看1楼",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"1楼\"}"
+  },
+  {
+    "user": "查看1层",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"1层\"}"
+  },
+  {
+    "user": "查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我看看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我看看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "吃不出来了吗？现在你看有点迟钝，现在是迟钝了",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会停\"}"
+  },
+  {
+    "user": "帮我切换到呃，峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "回到，当回到刚才的牌桌。",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"牌桌\"}"
+  },
+  {
+    "user": "带我看一下峰会厅。",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我看一下峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我看一下峰会厅。",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我看一下峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "回到刚刚的俯视视角",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "回到刚刚的俯视视角",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我浏览峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "回到刚刚的俯视视角",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "带我看看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "回到刚刚推荐的房间",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "浏览整个会议中心",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"会议中心\"}"
+  },
+  {
+    "user": "浏览整个会展中心",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"会展中心\"}"
+  },
+  {
+    "user": "游览整个会展中心",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"会展中心\"}"
+  },
+  {
+    "user": "我要查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "我要查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "我要查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "我要查看峰会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"峰会厅\"}"
+  },
+  {
+    "user": "我要查看宴会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"宴会厅\"}"
+  },
+  {
+    "user": "我要查看宴会厅",
+    "tool": "set_camera_location",
+    "call": "{\"room_name\":\"宴会厅\"}"
+  }
+]

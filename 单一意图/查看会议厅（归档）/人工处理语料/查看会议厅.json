@@ -1,0 +1,418 @@
+[
+  {
+  "conversation_history": [],
+  "user_instruction": "查看1楼",
+  "thought": {
+    "routing_thought": "用户指令'查看1楼'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='1楼'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"1楼"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看2楼",
+  "thought": {
+    "routing_thought": "用户指令'查看2楼'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2楼'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2楼"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看3楼",
+  "thought": {
+    "routing_thought": "用户指令'查看2楼'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2楼'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"3楼"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看-2楼",
+  "thought": {
+    "routing_thought": "用户指令'查看-2楼'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2楼'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"-2楼"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看地下二层",
+  "thought": {
+    "routing_thought": "用户指令'查看-2楼'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2楼'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"-2楼"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看地下层",
+  "thought": {
+    "routing_thought": "用户指令'查看-2楼'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2楼'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"-2楼"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看峰会厅",
+  "thought": {
+    "routing_thought": "用户指令'查看峰会厅'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='峰会厅'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"峰会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "带我看看峰会厅",
+  "thought": {
+    "routing_thought": "用户希望查看峰会厅，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='峰会厅'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"峰会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "展示峰会厅",
+  "thought": {
+    "routing_thought": "用户指令'展示峰会厅'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='峰会厅'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"峰会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "镜头切换到峰会厅",
+  "thought": {
+    "routing_thought": "用户指令'镜头切换至峰会厅'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='峰会厅'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"峰会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看峰会厅",
+  "thought": {
+    "routing_thought": "用户指令'查看峰会厅'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='峰会厅'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"峰会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "打开峰会厅",
+  "thought": {
+    "routing_thought": "用户指令'打开峰会厅'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='峰会厅'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"峰会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "带我看看A大会堂",
+  "thought": {
+    "routing_thought": "用户希望查看A大会堂，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='A大会堂'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"A大会堂"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "展示A大会堂",
+  "thought": {
+    "routing_thought": "用户指令'展示A大会堂'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='A大会堂'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"A大会堂"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "镜头切换到A大会堂",
+  "thought": {
+    "routing_thought": "用户指令'镜头切换至A大会堂'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='A大会堂'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"A大会堂"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看A大会堂",
+  "thought": {
+    "routing_thought": "用户指令'查看A大会堂'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='A大会堂'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"A大会堂"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "带我看看2层251会议室",
+  "thought": {
+    "routing_thought": "用户希望查看2层251会议室，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2层251会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "展示2层251会议室",
+  "thought": {
+    "routing_thought": "用户指令'展示2层251会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2层251会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "镜头切换到2层251会议室",
+  "thought": {
+    "routing_thought": "用户指令'镜头切换至2层251会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2层251会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看2层251会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层251会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2层251会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看251会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层251会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2层251会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "看一下234会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层234会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到234会议室，可知'234会议室'中的'2'为2层,234会议室即`2层243会议室`，提取`room_name='2层251会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看2层243+245号会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层243+245号会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,从指令中可以明确提取`room_name='2层243+245号会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "转到243+245号会议室",
+  "thought": {
+    "routing_thought": "用户指令'转到243+245号会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到243+245号会议室，可知'243'和'251'中的'2'为2层,243+245号会议室即'2层243+245号会议室'可以明确提取`room_name='2层243+245号会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "转到243+245号会议室",
+  "thought": {
+    "routing_thought": "用户指令'转到243+245号会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到243+245号会议室，可知'243'和'251'中的'2'为2层,243+245号会议室即'2层243+245号会议室'可以明确提取`room_name='2层243+245号会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层251会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "查看2层223会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层223会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,可以明确提取`room_name='2层223会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"3层A宴会厅"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "看看2层223会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层223会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,可以明确提取`room_name='2层223会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层223会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "打开2层216会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层216会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,可以明确提取`room_name='2层216会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层216会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "打开2层215会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层216会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,可以明确提取`room_name='2层215会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层216会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "看看223会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看223会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到223号会议室，可知'223'中的'2'为2层,223会议室即'2层223会议室'，可以明确提取`room_name='2层223会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层223会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "打开216会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看216会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到216号会议室，可知'216'中的'2'为2层,216会议室即'2层216会议室',可以明确提取`room_name='2层216会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层216会议室"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "打开215会议室",
+  "thought": {
+    "routing_thought": "用户指令'查看2层216会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`set_camera_location`工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到215号会议室，可知'215'中的'2'为2层,215会议室即'2层215会议室'，可以明确提取`room_name='2层215会议室'`"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "set_camera_location",
+    "parameters":{"room_name":"2层216会议室"}
+  }
+}
+]

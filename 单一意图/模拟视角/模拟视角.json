@@ -1,0 +1,1602 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第二排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第二排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第四排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第四排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最左对应为1。所以参数为'{\"x\":-4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第三排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第三排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码中间对应为0.5。所以参数为'{\"x\":-3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第二排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第二排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第五排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第五排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第四排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第四排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间对应为0.5。所以参数为'{\"x\":4,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第一排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第一排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-1,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第一排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第一排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":-1,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第一排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第一排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第五排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第五排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最右对应为-1。所以参数为'{\"x\":5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第五排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第五排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第三排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第三排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第五排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第五排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第二排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第二排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":-2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第四排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第四排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":-4,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第二排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第二排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第四排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第四排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":4,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":-2,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第五排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第五排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最右对应为-1。所以参数为'{\"x\":5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":-3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第一排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第一排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码中间对应为0.5。所以参数为'{\"x\":-1,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第四排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第四排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第五排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第五排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左对应为1。所以参数为'{\"x\":5,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第二排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第二排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码中间对应为0.5。所以参数为'{\"x\":2,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第四排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第四排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码中间对应为0.5。所以参数为'{\"x\":-4,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第二排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第二排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第四排最左座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第四排最左座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最左座位对应为1。所以参数为'{\"x\":4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第二排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第二排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第一排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第一排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个对应为1。所以参数为'{\"x\":1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第二排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第二排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第四排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第四排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第二排最左座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看第二排最左座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左座位对应为1。所以参数为'{\"x\":2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第一排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第一排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第一排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第一排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第三排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第三排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第一排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第一排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第五排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第五排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第二排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第二排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第二排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第二排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最右对应为-1。所以参数为'{\"x\":-2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第三排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看第三排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第一排最左座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第一排最左座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左座位对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第四排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第四排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个对应为1。所以参数为'{\"x\":4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第四排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第四排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-4,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第一排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第一排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":1,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第三排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第三排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第五排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第五排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码中间对应为0.5。所以参数为'{\"x\":-5,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第一排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看第一排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":1,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第二排最左座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第二排最左座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左座位对应为1。所以参数为'{\"x\":2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第四排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第四排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最右对应为-1。所以参数为'{\"x\":-4,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第五排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第五排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第一排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第一排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个对应为1。所以参数为'{\"x\":1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第五排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第五排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第三排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第三排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-3,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第五排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第五排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":5,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第三排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第三排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":-3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第一排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第一排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最右对应为-1。所以参数为'{\"x\":1,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第一排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第一排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码第一个对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第三排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第三排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":-3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第二排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第二排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第二排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第二排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第五排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第五排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-5,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第二排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第二排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最右对应为-1。所以参数为'{\"x\":-3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第三排最左座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第三排最左座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最左座位对应为1。所以参数为'{\"x\":-3,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第四排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第四排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个对应为1。所以参数为'{\"x\":-4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第四排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第四排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第三排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第三排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第二排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第二排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左对应为1。所以参数为'{\"x\":2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第一排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第一排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第一排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第一排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最左对应为1。所以参数为'{\"x\":1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第二排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第二排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最左对应为1。所以参数为'{\"x\":-2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第三排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第三排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码中间对应为0.5。所以参数为'{\"x\":-3,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第三排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第三排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最右对应为-1。所以参数为'{\"x\":-3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第二排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第二排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":-2,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第一排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第一排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第一排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看第一排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":1,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第三排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看第三排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最左对应为1。所以参数为'{\"x\":3,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第四排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看第四排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":4,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第一排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第一排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左对应为1。所以参数为'{\"x\":-1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第三排最左的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第三排最左的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最左对应为1。所以参数为'{\"x\":-3,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第三排最左座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第三排最左座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最左座位对应为1。所以参数为'{\"x\":3,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第二排中间座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第二排中间座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码中间座位对应为0.5。所以参数为'{\"x\":-2,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -2,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第二排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第二排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个对应为1。所以参数为'{\"x\":-5,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第三排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第三排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第二排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第二排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":2,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第四排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第四排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":-4,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -4,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第一排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第一排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":-1,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -1,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第五排最后一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第五排最后一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1。所以参数为'{\"x\":5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第一排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第一排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":1,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排第一个的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排第一个的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码第一个对应为1。所以参数为'{\"x\":5,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 5,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第三排最右的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第三排最右的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最右对应为-1。所以参数为'{\"x\":-3,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -3,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第四排最右座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第四排最右座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最右座位对应为-1。所以参数为'{\"x\":4,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 4,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第二排第一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'转到第二排第一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1。所以参数为'{\"x\":2,\"y\":1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第五排最后一个座位的视角。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第五排最后一个座位的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个座位对应为-1。所以参数为'{\"x\":-5,\"y\":-1}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": -5,
+          "y": -1
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第一排中间的视角。",
+    "thought": {
+      "routing_thought": "用户指令'进入第一排中间的视角。',匹配到'模拟视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'change_camera_to_seat'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间对应为0.5。所以参数为'{\"x\":1,\"y\":0.5}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "change_camera_to_seat",
+        "parameters": {
+          "x": 1,
+          "y": 0.5
+        }
+      }
+    }
+  }
+]

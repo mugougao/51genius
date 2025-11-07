@@ -1,0 +1,2402 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从2号展览厅到峰会厅的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从2号展览厅到峰会厅的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2号展览厅，目标房间名称为峰会厅。所以参数为'{\"origin\":2号展览厅,\"destination\":峰会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2号展览厅",
+          "destination": "峰会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层252会议室到多功能厅间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示2层252会议室到多功能厅间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层252会议室，目标房间名称为多功能厅。所以参数为'{\"origin\":2层252会议室,\"destination\":多功能厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层252会议室",
+          "destination": "多功能厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层223会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层223会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层223会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层223会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层223会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从会议厅到F大会堂的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从会议厅到F大会堂的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为会议厅，目标房间名称为F大会堂。所以参数为'{\"origin\":会议厅,\"destination\":F大会堂}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "会议厅",
+          "destination": "F大会堂"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "峰会厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求峰会厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为峰会厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":峰会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "峰会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "ABCD宴会厅到2层225会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求ABCD宴会厅到2层225会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为ABCD宴会厅，目标房间名称为2层225会议室。所以参数为'{\"origin\":ABCD宴会厅,\"destination\":2层225会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "ABCD宴会厅",
+          "destination": "2层225会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从2层216会议室到2层225会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从2层216会议室到2层225会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层216会议室，目标房间名称为2层225会议室。所以参数为'{\"origin\":2层216会议室,\"destination\":2层225会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层216会议室",
+          "destination": "2层225会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "ABCD宴会厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求ABCD宴会厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为ABCD宴会厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":ABCD宴会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "ABCD宴会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从ABCD宴会厅到3号展览厅",
+    "thought": {
+      "routing_thought": "用户要求带我从ABCD宴会厅到3号展览厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为ABCD宴会厅，目标房间名称为3号展览厅。所以参数为'{\"origin\":ABCD宴会厅,\"destination\":3号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "ABCD宴会厅",
+          "destination": "3号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层243会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层243会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层243会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从ABCD宴会厅到洗手间的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从ABCD宴会厅到洗手间的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为ABCD宴会厅，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":ABCD宴会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "ABCD宴会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层223会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层223会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层223会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层223会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层223会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层254会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层254会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层254会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层254会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层254会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层253会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层253会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层253会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层253会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层253会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从1号展览厅到2层254会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从1号展览厅到2层254会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为1号展览厅，目标房间名称为2层254会议室。所以参数为'{\"origin\":1号展览厅,\"destination\":2层254会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "1号展览厅",
+          "destination": "2层254会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层268会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层268会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层268会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层268会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层268会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层215会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层215会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层215会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层215会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层215会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层243会议室到2层211会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求2层243会议室到2层211会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为2层211会议室。所以参数为'{\"origin\":2层243会议室,\"destination\":2层211会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "2层211会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层243会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层243会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层243会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层215会议室到2层254会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从2层215会议室到2层254会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层215会议室，目标房间名称为2层254会议室。所以参数为'{\"origin\":2层215会议室,\"destination\":2层254会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层215会议室",
+          "destination": "2层254会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层246会议室到2层268会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求2层246会议室到2层268会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层246会议室，目标房间名称为2层268会议室。所以参数为'{\"origin\":2层246会议室,\"destination\":2层268会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层246会议室",
+          "destination": "2层268会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层212会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层212会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层212会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层212会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层212会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层252会议室到2层216会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求2层252会议室到2层216会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层252会议室，目标房间名称为2层216会议室。所以参数为'{\"origin\":2层252会议室,\"destination\":2层216会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层252会议室",
+          "destination": "2层216会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看1号展览厅到ABCD宴会厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看1号展览厅到ABCD宴会厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为1号展览厅，目标房间名称为ABCD宴会厅。所以参数为'{\"origin\":1号展览厅,\"destination\":ABCD宴会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "1号展览厅",
+          "destination": "ABCD宴会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层243会议室到ABCD宴会厅间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示2层243会议室到ABCD宴会厅间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为ABCD宴会厅。所以参数为'{\"origin\":2层243会议室,\"destination\":ABCD宴会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "ABCD宴会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层251会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层251会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层251会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层251会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层251会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层215会议室到多功能厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层215会议室到多功能厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层215会议室，目标房间名称为多功能厅。所以参数为'{\"origin\":2层215会议室,\"destination\":多功能厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层215会议室",
+          "destination": "多功能厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层223会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层223会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层223会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层223会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层223会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层212会议室到ABCD宴会厅",
+    "thought": {
+      "routing_thought": "用户要求带我从2层212会议室到ABCD宴会厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层212会议室，目标房间名称为ABCD宴会厅。所以参数为'{\"origin\":2层212会议室,\"destination\":ABCD宴会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层212会议室",
+          "destination": "ABCD宴会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找4号展览厅附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找4号展览厅附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为4号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":4号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "4号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层211会议室到多功能厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层211会议室到多功能厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层211会议室，目标房间名称为多功能厅。所以参数为'{\"origin\":2层211会议室,\"destination\":多功能厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层211会议室",
+          "destination": "多功能厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从1号展览厅到2层251会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从1号展览厅到2层251会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为1号展览厅，目标房间名称为2层251会议室。所以参数为'{\"origin\":1号展览厅,\"destination\":2层251会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "1号展览厅",
+          "destination": "2层251会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层225会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层225会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层225会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层225会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层225会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层245会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层245会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层245会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看大厅到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看大厅到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为大厅，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":大厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "大厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层265会议室到峰会厅的路线",
+    "thought": {
+      "routing_thought": "用户要求2层265会议室到峰会厅的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层265会议室，目标房间名称为峰会厅。所以参数为'{\"origin\":2层265会议室,\"destination\":峰会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层265会议室",
+          "destination": "峰会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层215会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层215会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层215会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层215会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层215会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层212会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层212会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层212会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层212会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层212会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从多功能厅到卫生间的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从多功能厅到卫生间的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":多功能厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层223会议室到2层251会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从2层223会议室到2层251会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层223会议室，目标房间名称为2层251会议室。所以参数为'{\"origin\":2层223会议室,\"destination\":2层251会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层223会议室",
+          "destination": "2层251会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层243会议室到峰会厅的路线",
+    "thought": {
+      "routing_thought": "用户要求2层243会议室到峰会厅的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为峰会厅。所以参数为'{\"origin\":2层243会议室,\"destination\":峰会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "峰会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从2层253会议室到3号展览厅的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从2层253会议室到3号展览厅的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层253会议室，目标房间名称为3号展览厅。所以参数为'{\"origin\":2层253会议室,\"destination\":3号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层253会议室",
+          "destination": "3号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找4号展览厅附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找4号展览厅附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为4号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":4号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "4号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从2层216会议室到3层A宴会厅的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从2层216会议室到3层A宴会厅的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层216会议室，目标房间名称为3层A宴会厅。所以参数为'{\"origin\":2层216会议室,\"destination\":3层A宴会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层216会议室",
+          "destination": "3层A宴会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2号展览厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2号展览厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层218会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层218会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层218会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层218会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层218会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层245会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层245会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层245会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从峰会厅到2层215会议室的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从峰会厅到2层215会议室的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为峰会厅，目标房间名称为2层215会议室。所以参数为'{\"origin\":峰会厅,\"destination\":2层215会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "峰会厅",
+          "destination": "2层215会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层212会议室到ABCD宴会厅",
+    "thought": {
+      "routing_thought": "用户要求带我从2层212会议室到ABCD宴会厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层212会议室，目标房间名称为ABCD宴会厅。所以参数为'{\"origin\":2层212会议室,\"destination\":ABCD宴会厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层212会议室",
+          "destination": "ABCD宴会厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层214会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层214会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层214会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层214会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层214会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "3号展览厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求3号展览厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":3号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层252会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层252会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层252会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层252会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层252会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层245会议室到卫生间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层245会议室到卫生间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层245会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示3号展览厅到2层267会议室间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示3号展览厅到2层267会议室间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为2层267会议室。所以参数为'{\"origin\":3号展览厅,\"destination\":2层267会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "2层267会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从会议厅到2层253会议室的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从会议厅到2层253会议室的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为会议厅，目标房间名称为2层253会议室。所以参数为'{\"origin\":会议厅,\"destination\":2层253会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "会议厅",
+          "destination": "2层253会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层215会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层215会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层215会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层215会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层215会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层246会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层246会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层246会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层246会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层246会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层217会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层217会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层217会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层217会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层217会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层268会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层268会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层268会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层268会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层268会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层246会议室到2层217会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求2层246会议室到2层217会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层246会议室，目标房间名称为2层217会议室。所以参数为'{\"origin\":2层246会议室,\"destination\":2层217会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层246会议室",
+          "destination": "2层217会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从2层217会议室到卫生间的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从2层217会议室到卫生间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层217会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层217会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层217会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层246会议室到2层266会议室路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层246会议室到2层266会议室路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层246会议室，目标房间名称为2层266会议室。所以参数为'{\"origin\":2层246会议室,\"destination\":2层266会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层246会议室",
+          "destination": "2层266会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找F大会堂附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找F大会堂附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为F大会堂，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":F大会堂,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "F大会堂",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层225会议室到2层225会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从2层225会议室到2层225会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层225会议室，目标房间名称为2层225会议室。所以参数为'{\"origin\":2层225会议室,\"destination\":2层225会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层225会议室",
+          "destination": "2层225会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层265会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层265会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层265会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层265会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层265会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层246会议室到4号展览厅",
+    "thought": {
+      "routing_thought": "用户要求带我从2层246会议室到4号展览厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层246会议室，目标房间名称为4号展览厅。所以参数为'{\"origin\":2层246会议室,\"destination\":4号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层246会议室",
+          "destination": "4号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层251会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层251会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层251会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层251会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层251会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层252会议室到多功能厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层252会议室到多功能厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层252会议室，目标房间名称为多功能厅。所以参数为'{\"origin\":2层252会议室,\"destination\":多功能厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层252会议室",
+          "destination": "多功能厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层267会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层267会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层267会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层267会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层267会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从3号展览厅到2号展览厅",
+    "thought": {
+      "routing_thought": "用户要求带我从3号展览厅到2号展览厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为2号展览厅。所以参数为'{\"origin\":3号展览厅,\"destination\":2号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "2号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层225会议室到卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层225会议室到卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层225会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层225会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层225会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找3号展览厅附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找3号展览厅附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":3号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "F大会堂附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求F大会堂附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为F大会堂，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":F大会堂,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "F大会堂",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层251会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层251会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层251会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层251会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层251会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示多功能厅到2层218会议室间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示多功能厅到2层218会议室间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为2层218会议室。所以参数为'{\"origin\":多功能厅,\"destination\":2层218会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "2层218会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层223会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层223会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层223会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层223会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层223会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层217会议室到2层212会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层217会议室到2层212会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层217会议室，目标房间名称为2层212会议室。所以参数为'{\"origin\":2层217会议室,\"destination\":2层212会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层217会议室",
+          "destination": "2层212会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层211会议室到2层252会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层211会议室到2层252会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层211会议室，目标房间名称为2层252会议室。所以参数为'{\"origin\":2层211会议室,\"destination\":2层252会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层211会议室",
+          "destination": "2层252会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层251会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层251会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层251会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层251会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层251会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看1号展览厅到2层223会议室路径",
+    "thought": {
+      "routing_thought": "用户要求查看1号展览厅到2层223会议室路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为1号展览厅，目标房间名称为2层223会议室。所以参数为'{\"origin\":1号展览厅,\"destination\":2层223会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "1号展览厅",
+          "destination": "2层223会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从3号展览厅到2号展览厅",
+    "thought": {
+      "routing_thought": "用户要求带我从3号展览厅到2号展览厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为2号展览厅。所以参数为'{\"origin\":3号展览厅,\"destination\":2号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "2号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层212会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层212会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层212会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层212会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层212会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层252会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层252会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层252会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层252会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层252会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层251会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层251会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层251会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层251会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层251会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层217会议室到2层266会议室间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示2层217会议室到2层266会议室间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层217会议室，目标房间名称为2层266会议室。所以参数为'{\"origin\":2层217会议室,\"destination\":2层266会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层217会议室",
+          "destination": "2层266会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层254会议室到F大会堂",
+    "thought": {
+      "routing_thought": "用户要求带我从2层254会议室到F大会堂,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层254会议室，目标房间名称为F大会堂。所以参数为'{\"origin\":2层254会议室,\"destination\":F大会堂}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层254会议室",
+          "destination": "F大会堂"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层211会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层211会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层211会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层211会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层211会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1号展览厅到2层215会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求1号展览厅到2层215会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为1号展览厅，目标房间名称为2层215会议室。所以参数为'{\"origin\":1号展览厅,\"destination\":2层215会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "1号展览厅",
+          "destination": "2层215会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层253会议室到会议厅怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层253会议室到会议厅怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层253会议室，目标房间名称为会议厅。所以参数为'{\"origin\":2层253会议室,\"destination\":会议厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层253会议室",
+          "destination": "会议厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层266会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层266会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层266会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层266会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层266会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找多功能厅附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找多功能厅附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":多功能厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层246会议室到2层253会议室间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示2层246会议室到2层253会议室间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层246会议室，目标房间名称为2层253会议室。所以参数为'{\"origin\":2层246会议室,\"destination\":2层253会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层246会议室",
+          "destination": "2层253会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层216会议室到2层212会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层216会议室到2层212会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层216会议室，目标房间名称为2层212会议室。所以参数为'{\"origin\":2层216会议室,\"destination\":2层212会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层216会议室",
+          "destination": "2层212会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层245会议室到2层214会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从2层245会议室到2层214会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为2层214会议室。所以参数为'{\"origin\":2层245会议室,\"destination\":2层214会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "2层214会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层223会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层223会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层223会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层223会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层223会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看多功能厅到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看多功能厅到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":多功能厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "4号展览厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求4号展览厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为4号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":4号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "4号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "会议厅到卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求会议厅到卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为会议厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":会议厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "会议厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从2层253会议室到2层268会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从2层253会议室到2层268会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层253会议室，目标房间名称为2层268会议室。所以参数为'{\"origin\":2层253会议室,\"destination\":2层268会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层253会议室",
+          "destination": "2层268会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层213会议室到2层252会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层213会议室到2层252会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层213会议室，目标房间名称为2层252会议室。所以参数为'{\"origin\":2层213会议室,\"destination\":2层252会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层213会议室",
+          "destination": "2层252会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找大厅附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找大厅附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为大厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":大厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "大厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层211会议室到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看2层211会议室到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层211会议室，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":2层211会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层211会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示会议厅到2层215会议室间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示会议厅到2层215会议室间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为会议厅，目标房间名称为2层215会议室。所以参数为'{\"origin\":会议厅,\"destination\":2层215会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "会议厅",
+          "destination": "2层215会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找3层A宴会厅附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找3层A宴会厅附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3层A宴会厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":3层A宴会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3层A宴会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示4号展览厅到大厅间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示4号展览厅到大厅间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为4号展览厅，目标房间名称为大厅。所以参数为'{\"origin\":4号展览厅,\"destination\":大厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "4号展览厅",
+          "destination": "大厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层245会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层245会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层245会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从峰会厅到洗手间的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从峰会厅到洗手间的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为峰会厅，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":峰会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "峰会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层225会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层225会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层225会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层225会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层225会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "多功能厅到2层266会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求多功能厅到2层266会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为2层266会议室。所以参数为'{\"origin\":多功能厅,\"destination\":2层266会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "2层266会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从2层268会议室到3号展览厅的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从2层268会议室到3号展览厅的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层268会议室，目标房间名称为3号展览厅。所以参数为'{\"origin\":2层268会议室,\"destination\":3号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层268会议室",
+          "destination": "3号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1号展览厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求1号展览厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为1号展览厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":1号展览厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "1号展览厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层216会议室到多功能厅的路线",
+    "thought": {
+      "routing_thought": "用户要求2层216会议室到多功能厅的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层216会议室，目标房间名称为多功能厅。所以参数为'{\"origin\":2层216会议室,\"destination\":多功能厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层216会议室",
+          "destination": "多功能厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找峰会厅附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找峰会厅附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为峰会厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":峰会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "峰会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层211会议室到2层267会议室间的路线",
+    "thought": {
+      "routing_thought": "用户要求展示2层211会议室到2层267会议室间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层211会议室，目标房间名称为2层267会议室。所以参数为'{\"origin\":2层211会议室,\"destination\":2层267会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层211会议室",
+          "destination": "2层267会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层218会议室到2层225会议室路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层218会议室到2层225会议室路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层218会议室，目标房间名称为2层225会议室。所以参数为'{\"origin\":2层218会议室,\"destination\":2层225会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层218会议室",
+          "destination": "2层225会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层216会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层216会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层216会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层216会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层216会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2号展览厅到2层268会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求2号展览厅到2层268会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2号展览厅，目标房间名称为2层268会议室。所以参数为'{\"origin\":2号展览厅,\"destination\":2层268会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2号展览厅",
+          "destination": "2层268会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层266会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层266会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层266会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层266会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层266会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层268会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层268会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层268会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层268会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层268会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层215会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层215会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层215会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层215会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层215会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层267会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层267会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层267会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层267会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层267会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层216会议室到2层212会议室路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层216会议室到2层212会议室路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层216会议室，目标房间名称为2层212会议室。所以参数为'{\"origin\":2层216会议室,\"destination\":2层212会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层216会议室",
+          "destination": "2层212会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "3层A宴会厅附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求3层A宴会厅附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3层A宴会厅，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":3层A宴会厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3层A宴会厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层243会议室到2层211会议室路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层243会议室到2层211会议室路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为2层211会议室。所以参数为'{\"origin\":2层243会议室,\"destination\":2层211会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "2层211会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层265会议室到大厅怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层265会议室到大厅怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层265会议室，目标房间名称为大厅。所以参数为'{\"origin\":2层265会议室,\"destination\":大厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层265会议室",
+          "destination": "大厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层243会议室到多功能厅怎么走",
+    "thought": {
+      "routing_thought": "用户要求2层243会议室到多功能厅怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层243会议室，目标房间名称为多功能厅。所以参数为'{\"origin\":2层243会议室,\"destination\":多功能厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层243会议室",
+          "destination": "多功能厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层245会议室到2层254会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求2层245会议室到2层254会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为2层254会议室。所以参数为'{\"origin\":2层245会议室,\"destination\":2层254会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "2层254会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从峰会厅到2层267会议室",
+    "thought": {
+      "routing_thought": "用户要求带我从峰会厅到2层267会议室,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为峰会厅，目标房间名称为2层267会议室。所以参数为'{\"origin\":峰会厅,\"destination\":2层267会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "峰会厅",
+          "destination": "2层267会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "带我从2层245会议室到大厅",
+    "thought": {
+      "routing_thought": "用户要求带我从2层245会议室到大厅,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为大厅。所以参数为'{\"origin\":2层245会议室,\"destination\":大厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "大厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层217会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层217会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层217会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层217会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层217会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层225会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层225会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层225会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层225会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层225会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层266会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层266会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层266会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层266会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层266会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看多功能厅到4号展览厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看多功能厅到4号展览厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为4号展览厅。所以参数为'{\"origin\":多功能厅,\"destination\":4号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "4号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从F大会堂到2层217会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从F大会堂到2层217会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为F大会堂，目标房间名称为2层217会议室。所以参数为'{\"origin\":F大会堂,\"destination\":2层217会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "F大会堂",
+          "destination": "2层217会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层245会议室附近最近的卫生间怎么走",
+    "thought": {
+      "routing_thought": "用户要求查找2层245会议室附近最近的卫生间怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层245会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层245会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层245会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "规划一条从F大会堂到2层251会议室的路线",
+    "thought": {
+      "routing_thought": "用户要求规划一条从F大会堂到2层251会议室的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为F大会堂，目标房间名称为2层251会议室。所以参数为'{\"origin\":F大会堂,\"destination\":2层251会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "F大会堂",
+          "destination": "2层251会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层213会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层213会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层213会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层213会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层213会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层214会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层214会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层214会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层214会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层214会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "3号展览厅到2层212会议室怎么走",
+    "thought": {
+      "routing_thought": "用户要求3号展览厅到2层212会议室怎么走,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为2层212会议室。所以参数为'{\"origin\":3号展览厅,\"destination\":2层212会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "2层212会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看会议厅到男洗手间的路线",
+    "thought": {
+      "routing_thought": "用户要求查看会议厅到男洗手间的路线,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为会议厅，目标房间名称为男洗手间，可理解为洗手间。所以参数为'{\"origin\":会议厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "会议厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看会议厅到3号展览厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看会议厅到3号展览厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为会议厅，目标房间名称为3号展览厅。所以参数为'{\"origin\":会议厅,\"destination\":3号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "会议厅",
+          "destination": "3号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看3号展览厅到1号展览厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看3号展览厅到1号展览厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为3号展览厅，目标房间名称为1号展览厅。所以参数为'{\"origin\":3号展览厅,\"destination\":1号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "3号展览厅",
+          "destination": "1号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看多功能厅到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看多功能厅到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为多功能厅，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":多功能厅,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "多功能厅",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2号展览厅到4号展览厅路径",
+    "thought": {
+      "routing_thought": "用户要求查看2号展览厅到4号展览厅路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2号展览厅，目标房间名称为4号展览厅。所以参数为'{\"origin\":2号展览厅,\"destination\":4号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2号展览厅",
+          "destination": "4号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从大厅到4号展览厅的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从大厅到4号展览厅的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为大厅，目标房间名称为4号展览厅。所以参数为'{\"origin\":大厅,\"destination\":4号展览厅}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "大厅",
+          "destination": "4号展览厅"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示从2层254会议室到2层266会议室的导览路径",
+    "thought": {
+      "routing_thought": "用户要求展示从2层254会议室到2层266会议室的导览路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层254会议室，目标房间名称为2层266会议室。所以参数为'{\"origin\":2层254会议室,\"destination\":2层266会议室}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层254会议室",
+          "destination": "2层266会议室"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找2层253会议室附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找2层253会议室附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层253会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层253会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层253会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查找F大会堂附近最近的卫生间",
+    "thought": {
+      "routing_thought": "用户要求查找F大会堂附近最近的卫生间,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为F大会堂，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":F大会堂,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "F大会堂",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看2层211会议室到最近的洗手间路径",
+    "thought": {
+      "routing_thought": "用户要求查看2层211会议室到最近的洗手间路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层211会议室，目标房间名称为洗手间，可理解为洗手间。所以参数为'{\"origin\":2层211会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层211会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "2层225会议室附近最近的卫生间的路径",
+    "thought": {
+      "routing_thought": "用户要求2层225会议室附近最近的卫生间的路径,这关联到route_show工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'route_show'工具，该工具的输入包括起始房间名称和目标房间名称，提取到起始房间名称为2层225会议室，目标房间名称为卫生间，可理解为洗手间。所以参数为'{\"origin\":2层225会议室,\"destination\":\"洗手间\"}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "route_show",
+        "parameters": {
+          "origin": "2层225会议室",
+          "destination": "洗手间"
+        }
+      }
+    }
+  }
+]

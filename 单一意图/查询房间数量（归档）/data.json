@@ -1,0 +1,127 @@
+[
+  {
+    "user": "会展中心总共有多少个厅",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "总共有多少个厅",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS total_rooms FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "会展中心一楼总共有多少个厅",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室')\"}"
+  },
+  {
+    "user": "总共有多少个厅",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS total_halls FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "会展中心共有多少个房间？",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "查看贵宾沙发",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS count FROM model WHERE name LIKE '%贵宾沙发%';\"}"
+  },
+  {
+    "user": "查看贵宾沙发",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT name, size_x, size_y, size_z FROM model WHERE name = '贵宾沙发';\"}"
+  },
+  {
+    "user": "呃，会议中心一共有多少个会议厅？",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS total_meeting_rooms FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "一共有多少家居？",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS count FROM model;\"}"
+  },
+  {
+    "user": "呃，会议中心一共有多少种家具",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(DISTINCT name) FROM model;\"}"
+  },
+  {
+    "user": "一共有多少种家具？",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) FROM model;\"}"
+  },
+  {
+    "user": "查看贵宾沙发",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS count FROM model WHERE name LIKE '%贵宾沙发%';\"}"
+  },
+  {
+    "user": "能承接2000人会议的会议室有哪些",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT display_name FROM meeting_rooms WHERE capacity >= 2000 AND type IN ('独立会议室', '组合会议室')\"}"
+  },
+  {
+    "user": "当前布局可以容纳多少人",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT capacity FROM meeting_rooms WHERE display_name LIKE '%峰会厅%'\"}"
+  },
+  {
+    "user": "能容纳2000人的房间有哪些",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS count, GROUP_CONCAT(display_name) AS rooms FROM meeting_rooms WHERE capacity >= 2000 AND type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "能容纳2000人的房间有多少个",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT COUNT(*) AS count FROM meeting_rooms WHERE capacity >= 2000 AND type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "宴会厅能容纳的最大人数",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT MAX(capacity) AS max_capacity FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "3层宴会厅能容纳的最大人数",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT MAX(capacity) AS max_capacity FROM meeting_rooms WHERE floor = 3 AND type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "峰会厅能容纳的最大人数",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT capacity FROM meeting_rooms WHERE display_name LIKE '%峰会厅%' AND type IN ('独立会议室', '组合会议室');\"}"
+  },
+  {
+    "user": "当前布局能容纳多少人",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT capacity FROM meeting_rooms WHERE display_name LIKE '%峰会厅%'\"}"
+  },
+  {
+    "user": "峰会厅能容纳的最大人数",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT capacity FROM meeting_rooms WHERE display_name LIKE '%峰会厅%' AND type IN ('独立会议室', '组合会议室')\"}"
+  },
+  {
+    "user": "能容纳3000人的会议厅有哪些",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT display_name FROM meeting_rooms WHERE capacity >= 3000 AND type IN ('独立会议室', '组合会议室')\"}"
+  },
+  {
+    "user": "峰会厅有多大面积",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT display_name, dimension FROM meeting_rooms WHERE display_name LIKE '%峰会厅%' AND type IN ('独立会议室', '组合会议室')\"}"
+  },
+  {
+    "user": "峰会厅有多大面积",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT dimension FROM room WHERE display_name LIKE '%峰会厅%' AND type IN ('独立会议室', '组合会议室')\"}"
+  },
+  {
+    "user": "峰会厅有多大面积",
+    "tool": "query_info",
+    "call": "{\"query\":\"SELECT display_name, dimension FROM room WHERE display_name LIKE '%峰会厅%' AND type IN ('独立会议室', '组合会议室')\"}"
+  }
+]

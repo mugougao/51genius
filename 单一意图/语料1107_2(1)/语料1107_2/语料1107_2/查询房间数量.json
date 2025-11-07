@@ -1,0 +1,353 @@
+[{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "会展中心共有多少个房间？",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会二期总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会二期二楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询二楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "二楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询二楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期二楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询二楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会二楼有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询二楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅，查询条件应该为,WHERE type IN ('独立会议室', '组合会议室')，**步骤4,最后，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE type IN ('独立会议室', '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期一楼有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会二期一楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "一楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期一楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会一楼有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期一楼有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期一楼有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会二期一楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询一楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是1楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 1，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 1 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "三楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询三楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是3楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 3，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期三楼总共有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询三楼会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是3楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 3，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国会三楼有多少个厅",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是3楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 3，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期三楼有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是3楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = 3，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = 3 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期负二层有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是-2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = -2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期负二层有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是-2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = -2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "国家会议中心二期地下有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层是地下，可以理解为-2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = -2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "负二层有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是-2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = -2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "地下二层有多少房间",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是-2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = -2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+},
+{
+  "conversation_history": [],
+  "user_instruction": "地下二层有多少会议厅",
+  "thought": {
+    "routing_thought": "用户指令'查询会议厅数量'，直接匹配到'查询房间数量'意图。适合直接进行工具调用。",
+    "action_thought": "该意图对应`query_info`工具，该工具的输入是sql语句，**步骤1,意图为查询数量，应该返回满足条件的行数，使用SELECT COUNT(*)，**步骤2,用户说的'房间'和'厅'在这里指的都是会议场地，房间数据存储在meeting_rooms表中，所以添加查询的表为FROM meeting_rooms，**步骤3,要求查找的会议厅所属楼层需要是-2楼，在表中floor列，定义了房间的楼层，所以定义筛选条件WHERE floor = -2，**步骤4,在表中type列，规定了房间类型，类型为独立会议室或组合会议室的房间为会议厅,定义筛选条件 (type = '独立会议室' OR type = '组合会议室')，**步骤5,最后，筛选条件用AND符号链接，结合所有SQL组件并添加‘;’作为SQL语句的结尾，输出SQL语句为：SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');。"
+  },
+  "action": {
+    "action_type": "TOOL_CALL",
+    "tool_name": "query_info",
+    "parameters": {"query":"SELECT COUNT(*) FROM meeting_rooms WHERE floor = -2 AND (type = '独立会议室' OR type = '组合会议室');"}
+  }
+}
+
+]

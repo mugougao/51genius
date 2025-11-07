@@ -1,0 +1,1282 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭2层216会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'关闭2层216会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为关闭2层216会议室的疏散路径。所以参数为'{\"room_name\":\"2层216会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层216会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏ABCD宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏ABCD宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏ABCD宴会厅的疏散路径。所以参数为'{\"room_name\":\"ABCD宴会厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "ABCD宴会厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除2层246会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除2层246会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除2层246会议室的疏散路径。所以参数为'{\"room_name\":\"2层246会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层246会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开2层246会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开2层246会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开2层246会议室的疏散路径。所以参数为'{\"room_name\":\"2层246会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层246会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭2层217会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'关闭2层217会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为关闭2层217会议室的疏散路径。所以参数为'{\"room_name\":\"2层217会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层217会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除ABCD宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除ABCD宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除ABCD宴会厅的疏散路径。所以参数为'{\"room_name\":\"ABCD宴会厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "ABCD宴会厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看多功能厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看多功能厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看多功能厅的疏散路径。所以参数为'{\"room_name\":\"多功能厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "多功能厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看ABCD宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看ABCD宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看ABCD宴会厅的疏散路径。所以参数为'{\"room_name\":\"ABCD宴会厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "ABCD宴会厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层251会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层251会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层251会议室的疏散路径。所以参数为'{\"room_name\":\"2层251会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层251会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟2层254会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟2层254会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟2层254会议室的疏散路径。所以参数为'{\"room_name\":\"2层254会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层254会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除大厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除大厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除大厅的疏散路径。所以参数为'{\"room_name\":\"大厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "大厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层212会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层212会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层212会议室的疏散路径。所以参数为'{\"room_name\":\"2层212会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层212会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除2层266会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除2层266会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除2层266会议室的疏散路径。所以参数为'{\"room_name\":\"2层266会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层266会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层267会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层267会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层267会议室的疏散路径。所以参数为'{\"room_name\":\"2层267会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层267会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层213会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层213会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层213会议室的疏散路径。所以参数为'{\"room_name\":\"2层213会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层213会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示4号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示4号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示4号展览厅的疏散路径。所以参数为'{\"room_name\":\"4号展览厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "4号展览厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除2层268会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除2层268会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除2层268会议室的疏散路径。所以参数为'{\"room_name\":\"2层268会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层268会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏ABCD宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏ABCD宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏ABCD宴会厅的疏散路径。所以参数为'{\"room_name\":\"ABCD宴会厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "ABCD宴会厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开2层253会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开2层253会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开2层253会议室的疏散路径。所以参数为'{\"room_name\":\"2层253会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层253会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层266会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层266会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层266会议室的疏散路径。所以参数为'{\"room_name\":\"2层266会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层266会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层213会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层213会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层213会议室的疏散路径。所以参数为'{\"room_name\":\"2层213会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层213会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除2层246会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除2层246会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除2层246会议室的疏散路径。所以参数为'{\"room_name\":\"2层246会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层246会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层217会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层217会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层217会议室的疏散路径。所以参数为'{\"room_name\":\"2层217会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层217会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层212会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层212会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层212会议室的疏散路径。所以参数为'{\"room_name\":\"2层212会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层212会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除F大会堂疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除F大会堂疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除F大会堂的疏散路径。所以参数为'{\"room_name\":\"F大会堂\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "F大会堂",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层214会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层214会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层214会议室的疏散路径。所以参数为'{\"room_name\":\"2层214会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层214会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示大厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示大厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示大厅的疏散路径。所以参数为'{\"room_name\":\"大厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "大厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层214会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层214会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层214会议室的疏散路径。所以参数为'{\"room_name\":\"2层214会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层214会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层243会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层243会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层243会议室的疏散路径。所以参数为'{\"room_name\":\"2层243会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层243会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层225会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层225会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层225会议室的疏散路径。所以参数为'{\"room_name\":\"2层225会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层225会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层218会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层218会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层218会议室的疏散路径。所以参数为'{\"room_name\":\"2层218会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层218会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除F大会堂疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除F大会堂疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除F大会堂的疏散路径。所以参数为'{\"room_name\":\"F大会堂\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "F大会堂",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层252会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层252会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层252会议室的疏散路径。所以参数为'{\"room_name\":\"2层252会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层252会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层216会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层216会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层216会议室的疏散路径。所以参数为'{\"room_name\":\"2层216会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层216会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层254会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层254会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层254会议室的疏散路径。所以参数为'{\"room_name\":\"2层254会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层254会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层212会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层212会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层212会议室的疏散路径。所以参数为'{\"room_name\":\"2层212会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层212会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除2号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除2号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除2号展览厅的疏散路径。所以参数为'{\"room_name\":\"2号展览厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2号展览厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭4号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'关闭4号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为关闭4号展览厅的疏散路径。所以参数为'{\"room_name\":\"4号展览厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "4号展览厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭2层265会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'关闭2层265会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为关闭2层265会议室的疏散路径。所以参数为'{\"room_name\":\"2层265会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层265会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟2层218会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟2层218会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟2层218会议室的疏散路径。所以参数为'{\"room_name\":\"2层218会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层218会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟会议厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟会议厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟会议厅的疏散路径。所以参数为'{\"room_name\":\"会议厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "会议厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除3层A宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除3层A宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除3层A宴会厅的疏散路径。所以参数为'{\"room_name\":\"3层A宴会厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "3层A宴会厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开2层243会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开2层243会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开2层243会议室的疏散路径。所以参数为'{\"room_name\":\"2层243会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层243会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟2层215会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟2层215会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟2层215会议室的疏散路径。所以参数为'{\"room_name\":\"2层215会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层215会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟会议厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟会议厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟会议厅的疏散路径。所以参数为'{\"room_name\":\"会议厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "会议厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟ABCD宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟ABCD宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟ABCD宴会厅的疏散路径。所以参数为'{\"room_name\":\"ABCD宴会厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "ABCD宴会厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开2层265会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开2层265会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开2层265会议室的疏散路径。所以参数为'{\"room_name\":\"2层265会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层265会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示3层A宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示3层A宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示3层A宴会厅的疏散路径。所以参数为'{\"room_name\":\"3层A宴会厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "3层A宴会厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示4号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示4号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示4号展览厅的疏散路径。所以参数为'{\"room_name\":\"4号展览厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "4号展览厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层245会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层245会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层245会议室的疏散路径。所以参数为'{\"room_name\":\"2层245会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层245会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟2层245会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟2层245会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟2层245会议室的疏散路径。所以参数为'{\"room_name\":\"2层245会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层245会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏多功能厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏多功能厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏多功能厅的疏散路径。所以参数为'{\"room_name\":\"多功能厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "多功能厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开2层212会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开2层212会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开2层212会议室的疏散路径。所以参数为'{\"room_name\":\"2层212会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层212会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层245会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层245会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层245会议室的疏散路径。所以参数为'{\"room_name\":\"2层245会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层245会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏多功能厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏多功能厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏多功能厅的疏散路径。所以参数为'{\"room_name\":\"多功能厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "多功能厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层252会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层252会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层252会议室的疏散路径。所以参数为'{\"room_name\":\"2层252会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层252会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除4号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除4号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除4号展览厅的疏散路径。所以参数为'{\"room_name\":\"4号展览厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "4号展览厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层211会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层211会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层211会议室的疏散路径。所以参数为'{\"room_name\":\"2层211会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层211会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭2层218会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'关闭2层218会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为关闭2层218会议室的疏散路径。所以参数为'{\"room_name\":\"2层218会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层218会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2号展览厅的疏散路径。所以参数为'{\"room_name\":\"2号展览厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2号展览厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开2层217会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开2层217会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开2层217会议室的疏散路径。所以参数为'{\"room_name\":\"2层217会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层217会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除2层225会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'删除2层225会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为删除2层225会议室的疏散路径。所以参数为'{\"room_name\":\"2层225会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层225会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看ABCD宴会厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看ABCD宴会厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看ABCD宴会厅的疏散路径。所以参数为'{\"room_name\":\"ABCD宴会厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "ABCD宴会厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟2层214会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟2层214会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟2层214会议室的疏散路径。所以参数为'{\"room_name\":\"2层214会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层214会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "打开大厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'打开大厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为打开大厅的疏散路径。所以参数为'{\"room_name\":\"大厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "大厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层212会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层212会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层212会议室的疏散路径。所以参数为'{\"room_name\":\"2层212会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层212会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层214会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层214会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层214会议室的疏散路径。所以参数为'{\"room_name\":\"2层214会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层214会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟F大会堂疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟F大会堂疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟F大会堂的疏散路径。所以参数为'{\"room_name\":\"F大会堂\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "F大会堂",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示2层252会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'展示2层252会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为展示2层252会议室的疏散路径。所以参数为'{\"room_name\":\"2层252会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层252会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2层211会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2层211会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2层211会议室的疏散路径。所以参数为'{\"room_name\":\"2层211会议室\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层211会议室",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层218会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层218会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层218会议室的疏散路径。所以参数为'{\"room_name\":\"2层218会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层218会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层268会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层268会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层268会议室的疏散路径。所以参数为'{\"room_name\":\"2层268会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层268会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟2层213会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'模拟2层213会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为模拟2层213会议室的疏散路径。所以参数为'{\"room_name\":\"2层213会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层213会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看4号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看4号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看4号展览厅的疏散路径。所以参数为'{\"room_name\":\"4号展览厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "4号展览厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭3号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'关闭3号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为关闭3号展览厅的疏散路径。所以参数为'{\"room_name\":\"3号展览厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "3号展览厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看大厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看大厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看大厅的疏散路径。所以参数为'{\"room_name\":\"大厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "大厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看4号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看4号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看4号展览厅的疏散路径。所以参数为'{\"room_name\":\"4号展览厅\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "4号展览厅",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏1号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏1号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏1号展览厅的疏散路径。所以参数为'{\"room_name\":\"1号展览厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "1号展览厅",
+          "visible": false
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看2层246会议室疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'看2层246会议室疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为看2层246会议室的疏散路径。所以参数为'{\"room_name\":\"2层246会议室\",\"visible\":true}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2层246会议室",
+          "visible": true
+        }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏2号展览厅疏散路径",
+    "thought": {
+      "routing_thought": "用户要求'隐藏2号展览厅疏散路径',这关联到layout_show_exit_path工具，我将调用该工具来执行相关操作。",
+      "action_thought": "该意图对应'layout_show_exit_path'工具，该工具的输入包括房间名称参数room_name，和显示隐藏状态参数visible，用户意图为隐藏2号展览厅的疏散路径。所以参数为'{\"room_name\":\"2号展览厅\",\"visible\":false}'",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_exit_path",
+        "parameters": {
+          "room_name": "2号展览厅",
+          "visible": false
+        }
+      }
+    }
+  }
+]

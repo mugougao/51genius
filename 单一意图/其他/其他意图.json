@@ -1,0 +1,301 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "重置视角",
+    "thought": {
+      "routing_thought": "用户指令'重置视角',匹配到'重置视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'camera_reset'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "camera_reset",
+        "parameters": { }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "重置初始视角",
+    "thought": {
+      "routing_thought": "用户指令'重置初始视角',匹配到'重置视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'camera_reset'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "camera_reset",
+        "parameters": { }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "回到初始视角",
+    "thought": {
+      "routing_thought": "用户指令'重置初始视角',匹配到'重置视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'camera_reset'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "camera_reset",
+        "parameters": { }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "回到初始视角",
+    "thought": {
+      "routing_thought": "用户指令'重置初始视角',匹配到'重置视角'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'camera_reset'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "camera_reset",
+        "parameters": { }
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "显示标尺",
+    "thought": {
+      "routing_thought": "用户指令'显示标尺',匹配到'显示/隐藏标尺'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_marker'工具，该工具的输入为visible，含义为标尺的显示状态，设置为true即可显示标尺，所以输入为{\"visible\": true}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_marker",
+        "parameters": {"visible":true}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示标尺",
+    "thought": {
+      "routing_thought": "用户指令'展示标尺',匹配到'显示/隐藏标尺'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_marker'工具，该工具的输入为visible，含义为标尺的显示状态，设置为true即可显示标尺，所以输入为{\"visible\": true}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_marker",
+        "parameters": {"visible":true}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "展示标尺",
+    "thought": {
+      "routing_thought": "用户指令'展示标尺',匹配到'显示/隐藏标尺'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_marker'工具，该工具的输入为visible，含义为标尺的显示状态，设置为true即可显示标尺，所以输入为{\"visible\": true}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_marker",
+        "parameters": {"visible":true}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏标尺",
+    "thought": {
+      "routing_thought": "用户指令'隐藏标尺',匹配到'显示/隐藏标尺'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_marker'工具，该工具的输入为visible，含义为标尺的显示状态，设置为false即可隐藏标尺，所以输入为{\"visible\": false}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_marker",
+        "parameters": {"visible":false}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "取消标尺",
+    "thought": {
+      "routing_thought": "用户指令'取消标尺',匹配到'显示/隐藏标尺'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_marker'工具，该工具的输入为visible，含义为标尺的显示状态，设置为false即可隐藏标尺，所以输入为{\"visible\": false}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_marker",
+        "parameters": {"visible":false}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除标尺",
+    "thought": {
+      "routing_thought": "用户指令'删除标尺',匹配到'显示/隐藏标尺'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_marker'工具，该工具的输入为visible，含义为标尺的显示状态，设置为false即可隐藏标尺，所以输入为{\"visible\": false}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_show_marker",
+        "parameters": {"visible":false}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "清空布局",
+    "thought": {
+      "routing_thought": "用户指令'清空布局',匹配到'清空布局'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_clear'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_clear",
+        "parameters": {}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除布局",
+    "thought": {
+      "routing_thought": "用户指令'删除布局',匹配到'清空布局'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_clear'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_clear",
+        "parameters": {}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "清除布局",
+    "thought": {
+      "routing_thought": "用户指令'清除布局',匹配到'清空布局'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_clear'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_clear",
+        "parameters": {}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "清除所有布局",
+    "thought": {
+      "routing_thought": "用户指令'清除所有布局',匹配到'清空布局'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_clear'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_clear",
+        "parameters": {}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "清除所有排布",
+    "thought": {
+      "routing_thought": "用户指令'清除所有排布',匹配到'清空布局'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_clear'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_clear",
+        "parameters": {}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "排布方案删除",
+    "thought": {
+      "routing_thought": "用户指令'排布方案删除',匹配到'清空布局'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_clear'工具，该工具的无信息输入，直接调用即可",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "layout_clear",
+        "parameters": {}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "今天天气怎么样",
+    "thought": {
+      "routing_thought": "用户指令'今天天气怎么样',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户未指定城市，默认查询场馆所在城市的天气，国家会议中心位于北京，查询所以应该查询北京天气。直接调用即可。 {'city':'北京'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"北京"}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "当地天气怎么样",
+    "thought": {
+      "routing_thought": "用户指令'当地天气怎么样',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户未指定城市，默认查询场馆所在城市的天气，国家会议中心位于北京，查询所以应该查询北京天气。直接调用即可。 {'city':'北京'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"北京"}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "天气怎么样",
+    "thought": {
+      "routing_thought": "用户指令'天气怎么样',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户未指定城市，默认查询场馆所在城市的天气，国家会议中心位于北京，查询所以应该查询北京天气。直接调用即可。 {'city':'北京'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"北京"}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查询天气",
+    "thought": {
+      "routing_thought": "用户指令'查询天气',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户未指定城市，默认查询场馆所在城市的天气，国家会议中心位于北京，查询所以应该查询北京天气。直接调用即可。 {'city':'北京'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"北京"}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "北京天气",
+    "thought": {
+      "routing_thought": "用户指令'查询天气',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户指定城市为北京，所以应该查询北京天气。直接调用即可。 {'city':'北京'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"北京"}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "天津天气",
+    "thought": {
+      "routing_thought": "用户指令'查询天气',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户指定城市为天津，所以应该查询天津天气。直接调用即可。 {'city':'天津'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"天津"}
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "上海天气",
+    "thought": {
+      "routing_thought": "用户指令'查询天气',匹配到'查询天气'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'maps_weather'工具，该工具的输入是city，含义是城市，用户指定城市为上海，所以应该查询上海天气。直接调用即可。 {'city':'上海'}",
+      "action": {
+        "action_type": "TOOL_CALL",
+        "tool_name": "maps_weather",
+        "parameters": {"city":"上海"}
+      }
+    }
+  }
+]

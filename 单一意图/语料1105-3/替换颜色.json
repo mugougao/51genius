@@ -1,0 +1,3202 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "椅子改成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令椅子改成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子改成金色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子改成金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅更换为金色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅更换为金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座位换成透明。",
+    "thought": {
+      "routing_thought": "用户指令全部座位换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座位颜色替换成半透。",
+    "thought": {
+      "routing_thought": "用户指令VIP座位颜色替换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座位换成蓝色。",
+    "thought": {
+      "routing_thought": "用户指令VIP座位换成蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座位换成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座位换成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位替换为琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令所有座位替换为琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位颜色更换为金黄色。",
+    "thought": {
+      "routing_thought": "用户指令座位颜色更换为金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色更换为透明。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色更换为透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位颜色换成半透。",
+    "thought": {
+      "routing_thought": "用户指令所有座位颜色换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子改成透明。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子改成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅替换为极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅替换为极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区椅子颜色换成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令普通区椅子颜色换成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区椅子颜色换成绿色。",
+    "thought": {
+      "routing_thought": "用户指令普通区椅子颜色换成绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅颜色更换为蓝色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅颜色更换为蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子颜色换成透明。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子颜色换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位换成透明。",
+    "thought": {
+      "routing_thought": "用户指令座位换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座椅颜色替换为极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座椅颜色替换为极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅替换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅替换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅替换为皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅替换为皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅颜色替换成黄色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅颜色替换成黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子更换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子更换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色换成红色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座位颜色改成蓝色。",
+    "thought": {
+      "routing_thought": "用户指令普通区座位颜色改成蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位换成琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位换成琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座椅换成红色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座椅换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座椅替换成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座椅替换成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座位改成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令普通区座位改成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座椅颜色替换为琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令座椅颜色替换为琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP椅子颜色替换为默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令VIP椅子颜色替换为默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座椅颜色改成黄色。",
+    "thought": {
+      "routing_thought": "用户指令VIP座椅颜色改成黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位替换成透明。",
+    "thought": {
+      "routing_thought": "用户指令普通座位替换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座位颜色更换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座位颜色更换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色更换为晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色更换为晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅颜色更换为白色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅颜色更换为白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅替换为红色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅替换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅换成半透。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座椅颜色换成灰色。",
+    "thought": {
+      "routing_thought": "用户指令所有座椅颜色换成灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位颜色改成白色。",
+    "thought": {
+      "routing_thought": "用户指令座位颜色改成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有椅子颜色更换为半透。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子颜色更换为半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位颜色换成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位颜色换成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位颜色更换为半透。",
+    "thought": {
+      "routing_thought": "用户指令普通座位颜色更换为半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅替换成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅替换成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位替换成蓝色。",
+    "thought": {
+      "routing_thought": "用户指令所有座位替换成蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座位颜色改成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座位颜色改成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区椅子颜色替换为半透明。",
+    "thought": {
+      "routing_thought": "用户指令所有区椅子颜色替换为半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区椅子换成半透。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区椅子换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座椅替换成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令VIP座椅替换成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅替换成白色。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅替换成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色替换成红色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色替换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色替换成绿色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色替换成绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位改成绿色。",
+    "thought": {
+      "routing_thought": "用户指令座位改成绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区椅子颜色替换为白色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区椅子颜色替换为白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座位颜色换成灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通区座位颜色换成灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座位更换为红色。",
+    "thought": {
+      "routing_thought": "用户指令全部座位更换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区椅子换成透明。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区椅子换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有椅子颜色换成金黄色。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子颜色换成金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座椅替换为黄色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座椅替换为黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅换成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅换成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座椅改成半透。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座椅改成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅换成白色。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅换成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座位更换为半透明。",
+    "thought": {
+      "routing_thought": "用户指令普通区座位更换为半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色替换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色替换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位颜色换成黄色。",
+    "thought": {
+      "routing_thought": "用户指令所有座位颜色换成黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅更换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅更换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部椅子颜色改成金黄色。",
+    "thought": {
+      "routing_thought": "用户指令全部椅子颜色改成金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅颜色改成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅颜色改成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色替换为半透明。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色替换为半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座椅颜色换成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令所有座椅颜色换成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅换成透明。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座椅颜色换成半透。",
+    "thought": {
+      "routing_thought": "用户指令VIP座椅颜色换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位颜色更换为红色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位颜色更换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅颜色换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅颜色换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅换成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅换成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座椅颜色更换为金色。",
+    "thought": {
+      "routing_thought": "用户指令座椅颜色更换为金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有椅子换成金黄色。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子换成金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅颜色更换为半透明。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅颜色更换为半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "椅子颜色替换成金色。",
+    "thought": {
+      "routing_thought": "用户指令椅子颜色替换成金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座椅颜色改成蓝色。",
+    "thought": {
+      "routing_thought": "用户指令所有座椅颜色改成蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子换成红色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座位颜色换成红色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座位颜色换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅颜色替换成灰色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅颜色替换成灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座椅颜色替换成默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令座椅颜色替换成默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位颜色改成白色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位颜色改成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座位颜色更换为透明。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座位颜色更换为透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色替换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色替换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅颜色改成金色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅颜色改成金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位颜色改成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位颜色改成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子换成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子换成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位颜色替换成半透。",
+    "thought": {
+      "routing_thought": "用户指令所有座位颜色替换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座位颜色改成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令普通区座位颜色改成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位颜色更换为皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令所有座位颜色更换为皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅换成半透明。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅换成半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位换成蓝色。",
+    "thought": {
+      "routing_thought": "用户指令普通座位换成蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位颜色更换为极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令座位颜色更换为极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座位替换为默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令VIP座位替换为默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位替换成金色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位替换成金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子替换为红色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子替换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位替换为绿色。",
+    "thought": {
+      "routing_thought": "用户指令座位替换为绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅替换成半透。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅替换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子更换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子更换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位改成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位改成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅替换成蓝色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅替换成蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座椅颜色替换成默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令座椅颜色替换成默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子替换为红色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子替换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子更换为晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子更换为晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子替换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子替换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座椅替换为宝石红。",
+    "thought": {
+      "routing_thought": "用户指令座椅替换为宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位颜色改成金黄色。",
+    "thought": {
+      "routing_thought": "用户指令所有座位颜色改成金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子替换成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子替换成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子换成黄色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子换成黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "椅子颜色更换为黄色。",
+    "thought": {
+      "routing_thought": "用户指令椅子颜色更换为黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座位替换为金黄色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座位替换为金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位换成琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令普通座位换成琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子替换为金色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子替换为金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座椅颜色替换成白色。",
+    "thought": {
+      "routing_thought": "用户指令所有座椅颜色替换成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座椅颜色换成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令VIP座椅颜色换成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅更换为半透明。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅更换为半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部椅子换成半透。",
+    "thought": {
+      "routing_thought": "用户指令全部椅子换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位更换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通座位更换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅换成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅换成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅颜色替换成绿色。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅颜色替换成绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅替换为默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅替换为默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅更换为红色。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅更换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅替换为绿色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅替换为绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅更换为混凝土。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅更换为混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有椅子颜色换成默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子颜色换成默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座椅换成琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令所有座椅换成琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部椅子替换为白色。",
+    "thought": {
+      "routing_thought": "用户指令全部椅子替换为白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位颜色替换成透明。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位颜色替换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP椅子换成透明。",
+    "thought": {
+      "routing_thought": "用户指令VIP椅子换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅替换成绿色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅替换成绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位颜色更换为混凝土。",
+    "thought": {
+      "routing_thought": "用户指令所有座位颜色更换为混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座位替换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令VIP座位替换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子颜色更换为晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子颜色更换为晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座位替换成灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通区座位替换成灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座位改成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令全部座位改成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座椅改成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令座椅改成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位更换为默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位更换为默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色更换为灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色更换为灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP座椅替换为琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令VIP座椅替换为琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅更换为半透明。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅更换为半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子颜色更换为皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子颜色更换为皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位颜色换成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位颜色换成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅颜色改成红色。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅颜色改成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区座椅颜色替换为晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令普通区座椅颜色替换为晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色改成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色改成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座位颜色换成红色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座位颜色换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅颜色更换为绿色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅颜色更换为绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座椅颜色替换成透明。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座椅颜色替换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅颜色更换为黄色。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅颜色更换为黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区椅子颜色更换为宝石红。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区椅子颜色更换为宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "椅子换成金色。",
+    "thought": {
+      "routing_thought": "用户指令椅子换成金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅颜色替换成红色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅颜色替换成红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色替换为半透。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色替换为半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色更换为半透。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色更换为半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色替换成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色替换成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP椅子颜色换成透明。",
+    "thought": {
+      "routing_thought": "用户指令VIP椅子颜色换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅更换为透明。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅更换为透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座位颜色改成金黄色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座位颜色改成金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区椅子换成透明。",
+    "thought": {
+      "routing_thought": "用户指令所有区椅子换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位颜色替换成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令座位颜色替换成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅换成半透。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅换成半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座位颜色替换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座位颜色替换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区椅子颜色改成默认颜色。",
+    "thought": {
+      "routing_thought": "用户指令所有区椅子颜色改成默认颜色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"默认\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "默认"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有椅子替换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子替换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色换成灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色换成灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位换成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令普通座位换成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅换成白色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅换成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子颜色更换为晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子颜色更换为晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座位颜色改成皓玉白。",
+    "thought": {
+      "routing_thought": "用户指令全部座位颜色改成皓玉白。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅改成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅改成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅更换为琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅更换为琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位更换为半透。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位更换为半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座椅替换成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令所有区座椅替换成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位更换为混凝土。",
+    "thought": {
+      "routing_thought": "用户指令座位更换为混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅颜色换成金色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅颜色换成金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座位替换为蓝色。",
+    "thought": {
+      "routing_thought": "用户指令全部座位替换为蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅换成透明。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅换成透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子更换为琉璃绿。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子更换为琉璃绿。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子颜色替换成白色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子颜色替换成白色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"皓玉白\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "皓玉白"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有椅子替换成半透明。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子替换成半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通椅子颜色改成灰色。",
+    "thought": {
+      "routing_thought": "用户指令普通椅子颜色改成灰色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区椅子更换为绿色。",
+    "thought": {
+      "routing_thought": "用户指令VIP区椅子更换为绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座位换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令普通座位换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP椅子替换成金黄色。",
+    "thought": {
+      "routing_thought": "用户指令VIP椅子替换成金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP区座位改成极光蓝。",
+    "thought": {
+      "routing_thought": "用户指令VIP区座位改成极光蓝。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP椅子替换为金黄色。",
+    "thought": {
+      "routing_thought": "用户指令VIP椅子替换为金黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅改成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅改成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "VIP椅子颜色替换为蓝色。",
+    "thought": {
+      "routing_thought": "用户指令VIP椅子颜色替换为蓝色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"vip\",\"color\":\"极光蓝\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "vip",
+        "color": "极光蓝"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部椅子颜色替换为透明。",
+    "thought": {
+      "routing_thought": "用户指令全部椅子颜色替换为透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有座位更换为金色。",
+    "thought": {
+      "routing_thought": "用户指令所有座位更换为金色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP区座椅颜色更换为红色。",
+    "thought": {
+      "routing_thought": "用户指令SVIP区座椅颜色更换为红色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "全部座椅更换为黄色。",
+    "thought": {
+      "routing_thought": "用户指令全部座椅更换为黄色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通座椅颜色换成晨曦金。",
+    "thought": {
+      "routing_thought": "用户指令普通座椅颜色换成晨曦金。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"晨曦金\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "晨曦金"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "所有区座位颜色改成绿色。",
+    "thought": {
+      "routing_thought": "用户指令所有区座位颜色改成绿色。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色，用户未指定具体的区域，所以区域选择‘all’。所以参数为'{\"area\":\"all\",\"color\":\"琉璃绿\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "all",
+        "color": "琉璃绿"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP座椅替换成混凝土。",
+    "thought": {
+      "routing_thought": "用户指令SVIP座椅替换成混凝土。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"混凝土\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "混凝土"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "SVIP椅子改成宝石红。",
+    "thought": {
+      "routing_thought": "用户指令SVIP椅子改成宝石红。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"svip\",\"color\":\"宝石红\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "svip",
+        "color": "宝石红"
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "普通区椅子颜色替换为半透。",
+    "thought": {
+      "routing_thought": "用户指令普通区椅子颜色替换为半透。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"general\",\"color\":\"半透明\"}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "area": "general",
+        "color": "半透明"
+      }
+    }
+  }
+]
