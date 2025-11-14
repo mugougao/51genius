@@ -1,213 +1,488 @@
-// 对话类型定义
-const DIALOGUE_TYPES = {
-// 问候  
-GREETING: {  
-    id: 1,
-    templates: [
-      "你好，请问有什么可以帮您？",
-      "您好，欢迎咨询！",
-      "很高兴为您服务，请问您需要什么帮助？"
-    ]
-  },
-// 问题  
-  QUESTION: {
-    id: 2,
-// 子类型定义
-    subtypes: {
-      PRODUCT: {  // 产品信息
-        templates: [
-          "我想了解关于{product}的信息",
-          "能介绍一下{product}吗？",
-          "{product}有什么特点？"
-        ]
-      },
-      PRICE: {  // 价格信息
-        templates: [
-          "{product}的价格是多少？",
-          "请问{product}要多少钱？",
-          "能告诉我{product}的售价吗？"
-        ]
-      },
-      FEATURE: {  // 功能信息
-        templates: [
-          "{product}的主要功能是什么？",
-          "这个{product}有什么特别的功能吗？",
-          "能详细说说{product}的功能吗？"
-        ]
-      }
-    }
-  },
-  ANSWER: {  // 回答
-    id: 3,
-    subtypes: {
-      PRODUCT: {  // 产品信息
-        templates: [
-          "{product}是我们最新的产品，具有{feature}等功能",
-          "{product}是一款专注于{feature}的产品",
-          "关于{product}，它主要提供{feature}服务"
-        ]
-      },
-      PRICE: {  // 价格信息
-        templates: [
-          "{product}的价格是{price}元",
-          "目前{product}的售价是{price}元",
-          "您询问的{product}价格是{price}元"
-        ]
-      },
-      FEATURE: {  // 功能信息
-        templates: [
-          "{product}的主要功能包括{feature}",
-          "这款{product}的特色功能是{feature}",
-          "{product}最突出的功能是{feature}"
-        ]
-      }
-    }
-  },
-  FOLLOW_UP: {  // 跟进问题
-    id: 4,
-    templates: [ // 无子类型
-      "您还有其他问题吗？",
-      "关于{product}，您还想了解什么？",
-      "需要我进一步解释{product}的{feature}吗？"
-    ]
-  },
-  CLOSING: {  // 结束
-    id: 5,
-    templates: [
-      "感谢您的咨询，再见！",
-      "很高兴为您服务，祝您愉快！",
-      "如果还有其他问题，随时联系我们！"
-    ]
-  }
+// 对话环节定义
+const DIALOGUE_STAGES = {
+    GREETING: '问候',
+    VENUE_INQUIRY: '场馆查看',
+    ROOM_RECOMMENDATION: '选房间',
+    SEAT_ARRANGEMENT: '排桌',
+    ARRANGEMENT_ADJUSTMENT: '调整排桌方案',
+    COLOR_REPLACEMENT: '替换颜色',
+    VIEW_SIMULATION: '视角模拟',
+    Exit: '退出'
 };
 
-// 对话状态管理器
-class DialogueState {
-  /**
-   * DialogueState类的构造函数
-   * 用于初始化对话状态管理相关的属性
-   */
-  constructor() {
-    // 当前对话主题，初始为null表示尚未设置主题
-    this.currentTopic = null;
+
+function getRandomElement(arr) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+}
+// 每个环节的问题类型
+async function buildQusetion() {
+
+
+
+
+    let SEAT_ARRANGEMENT1= await SEAT_ARRANGEMENT()
+    let VIEW_SIMULATION1= await VIEW_SIMULATION()
+    let COLOR_REPLACEMENT1= await COLOR_REPLACEMENT()
+    let VENUE_INQUIRY1= await VENUE_INQUIRY()
+    let ROOM_RECOMMENDATION1= await ROOM_RECOMMENDATION()
+        
+    let QUESTION_TYPES = await {
+        [DIALOGUE_STAGES.GREETING]: [
+            "你好",
+            "请介绍国会",
+            "你好，智会精灵",
+            "请介绍你自己"
+        ],
+        [DIALOGUE_STAGES.VENUE_INQUIRY]: [ VENUE_INQUIRY1
+
+        ],
+        [DIALOGUE_STAGES.ROOM_RECOMMENDATION]: [  ROOM_RECOMMENDATION1
+
+        ],
+        [DIALOGUE_STAGES.SEAT_ARRANGEMENT]: [SEAT_ARRANGEMENT1],
+        [DIALOGUE_STAGES.ARRANGEMENT_ADJUSTMENT]: [
+            "根据反馈，我们可以将前排座位减少10%",
+            "建议将VIP区域移至中央位置",
+            "考虑到视线问题，建议升高后排座位",
+            "可以增加两个紧急出口通道",
+            "根据新的要求，我们可以调整座位间距"
+        ],
+        [DIALOGUE_STAGES.VIEW_SIMULATION]: [VIEW_SIMULATION1],
+        [DIALOGUE_STAGES.COLOR_REPLACEMENT]: [COLOR_REPLACEMENT1],
+        [DIALOGUE_STAGES.Exit]: [
+            "感谢您的咨询，期待为您服务",
+            "如有任何问题，欢迎随时联系我们",
+            "方案已确认，我们将尽快安排",
+            "祝您的活动圆满成功",
+            "期待下次合作"
+        ]
+    };  
+    return QUESTION_TYPES
+}
+// 生成对话的函数
+async function generateDialogues(numDialogues) {
+    const dialogue = [];
+        let QUESTION_TYPES= await buildQusetion() 
+    for (let i = 0; i < numDialogues; i++) {
+        
+
+        // 按顺序生成每个环节的对话
+        for (const stage in DIALOGUE_STAGES) {
+            const stageName = DIALOGUE_STAGES[stage];
+            const questions = QUESTION_TYPES[stageName];
+            
+            // 随机选择该环节的一个问题类型
+            const randomIndex = Math.floor(Math.random() * questions.length);
+            const userQuestion = questions[randomIndex];
+
+            // 生成AI回复（这里简化处理，实际可以根据问题生成更智能的回复）
+            let aiResponse;
+            switch (stageName) {
+                case DIALOGUE_STAGES.GREETING:
+                    aiResponse = "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？";
+                    break;
+                case DIALOGUE_STAGES.VENUE_INQUIRY:
+                    aiResponse = await VENUE_INQUIRY_A(userQuestion);
+                    break;
+                case DIALOGUE_STAGES.ROOM_RECOMMENDATION:
+                    aiResponse = "这是我们根据您的需求推荐的场地方案。";
+                    break;
+                case DIALOGUE_STAGES.SEAT_ARRANGEMENT:
+                    aiResponse = "明白了，我会为您设计座位排布方案。";
+                    break;
+                case DIALOGUE_STAGES.ARRANGEMENT_ADJUSTMENT:
+                    aiResponse = "已收到您的反馈，将进行相应调整。";
+                    break;
+                case DIALOGUE_STAGES.VIEW_SIMULATION:
+                    aiResponse = "这是模拟效果图，请查看是否符合预期。";
+                    break;
+                case DIALOGUE_STAGES.CONCLUSION:
+                    aiResponse = "感谢您使用我们的服务！";
+                    break;
+            }
+
+            dialogue.push({
+                stage: stageName,
+                user: userQuestion,
+                ai: aiResponse
+            });
+        }
+
+       
+    }
     
-    // 对话历史记录数组，用于存储所有对话内容
-    this.dialogueHistory = [];
-    
-    // 可用的对话类型数组，可能用于存储系统支持的对话类型选项
-    this.availableTypes = [];
-    
-    // 产品数据数组，包含系统支持的产品信息
-    // 每个产品包含名称、特性数组和价格三个属性
-    this.productData = [
-      { name: "手机", features: ["高清摄像头", "长续航电池", "5G网络"], price: 2999 },
-      { name: "笔记本电脑", features: ["高性能CPU", "轻薄设计", "长续航"], price: 5999 },
-      { name: "智能手表", features: ["健康监测", "运动追踪", "消息提醒"], price: 999 }
-    ];
-  }
-
-  // 获取随机产品数据
-  getRandomProduct() {
-  // 从产品数据数组中随机选择一个产品并返回
-    return this.productData[Math.floor(Math.random() * this.productData.length)];
-  }
-
-  // 获取下一个对话类型
-getNextType() {
-    // 如果对话历史为空，返回问候类型
-    if (this.dialogueHistory.length === 0) {
-      return DIALOGUE_TYPES.GREETING;
-    }
-    // 获取对话历史中最后一个对话的类型ID
-    const lastType = this.dialogueHistory[this.dialogueHistory.length - 1].type;
-    // 根据最后一个对话类型决定下一个对话类型
-    switch (lastType.id) {
-      case DIALOGUE_TYPES.GREETING.id:
-        return DIALOGUE_TYPES.QUESTION;
-      case DIALOGUE_TYPES.QUESTION.id:
-        return DIALOGUE_TYPES.ANSWER;
-      case DIALOGUE_TYPES.ANSWER.id:
-        return Math.random() > 0.3 ? DIALOGUE_TYPES.FOLLOW_UP : DIALOGUE_TYPES.CLOSING;
-      case DIALOGUE_TYPES.FOLLOW_UP.id:
-        return Math.random() > 0.5 ? DIALOGUE_TYPES.QUESTION : DIALOGUE_TYPES.CLOSING;
-      default:
-        return null;
-    }
-  }
-
-  // 获取随机模板
-  getRandomTemplate(type) {
-    if (type.subtypes) {
-      const subtypeKeys = Object.keys(type.subtypes);
-      const randomSubtypeKey = subtypeKeys[Math.floor(Math.random() * subtypeKeys.length)];
-      const templates = type.subtypes[randomSubtypeKey].templates;
-      return {
-        template: templates[Math.floor(Math.random() * templates.length)],
-        subtype: randomSubtypeKey
-      };
-    } else {
-      return {
-        template: type.templates[Math.floor(Math.random() * type.templates.length)],
-        subtype: null
-      };
-    }
-  }
-
-  // 生成对话
-  generateDialogue() {
-    const type = this.getNextType();
-    if (!type) return null;
-
-    const { template, subtype } = this.getRandomTemplate(type);
-    const product = this.currentTopic || this.getRandomProduct();
-    this.currentTopic = product;
-
-    let filledTemplate = template;
-    if (subtype) {
-      switch (subtype) {
-        case 'PRODUCT':
-          filledTemplate = filledTemplate.replace('{product}', product.name);
-          break;
-        case 'PRICE':
-          filledTemplate = filledTemplate.replace('{product}', product.name)
-            .replace('{price}', product.price);
-          break;
-        case 'FEATURE':
-          filledTemplate = filledTemplate.replace('{product}', product.name)
-            .replace('{feature}', product.features.join(', '));
-          break;
-      }
-    }
-
-    const dialogue = {
-      type: type,
-      subtype: subtype,
-      text: filledTemplate,
-      timestamp: new Date().toISOString()
-    };
-
-    this.dialogueHistory.push(dialogue);
+   console.log(JSON.stringify(dialogue, null, 2));
     return dialogue;
-  }
-
-  // 生成完整对话流
-  generateDialogueFlow(count = 10) {
-    const dialogues = [];
-    for (let i = 0; i < count; i++) {
-      const dialogue = this.generateDialogue();
-      if (!dialogue) break;
-      dialogues.push(dialogue);
-    }
-    return dialogues;
-  }
 }
 
-// 使用示例
-const generator = new DialogueState();
-const dialogueFlow = generator.generateDialogueFlow(8);
+// 示例：生成3组对话
+let sampleDialogues = generateDialogues(1);
 
-// 输出对话流
-console.log("Generated Dialogue Flow:");
-dialogueFlow.forEach((dialogue, index) => {
-  console.log(`${index + 1}. [${dialogue.type.id}] ${dialogue.text}`);
-});
+
+
+async function SEAT_ARRANGEMENT() {
+    let yituArr = ["在", "要", "意图", "需要", "考虑", "计划", "安排"]
+    let room_nameArr = [
+        "峰会厅",
+        "大厅",
+        "会议厅",
+        "2层243会议室",
+        "2层245会议室",
+        "F大会堂",
+        "多功能厅",
+        "2层246会议室",
+        "2层211会议室",
+        "2层212会议室",
+        "2层213会议室",
+        "2层214会议室",
+        "2层215会议室",
+        "2层216会议室",
+        "2层217会议室",
+        "2层218会议室",
+        "2层223会议室",
+        "2层225会议室",
+        "ABCD宴会厅",
+        "3层A宴会厅",
+        "2层265会议室",
+        "2层266会议室",
+        "2层267会议室",
+        "2层268会议室",
+        "1号展览厅",
+        "2号展览厅",
+        "3号展览厅",
+        "4号展览厅",
+        "2层252会议室",
+        "2层251会议室",
+        "2层253会议室",
+        "2层254会议室"
+    ]
+    let event_nameArr = [
+        "论坛",
+        "会议",
+        "活动",
+        "大会"
+    ]
+    let input_total_peopleArr = [
+        "300",
+        "500",
+        "1000",
+        "1500",
+        "50",
+        "100",
+        "200",
+        "300",
+        "400",
+        "450",
+        "500",
+        "550",
+        "600",
+        "700"
+    ]
+    let svip_area_infoArr = [
+        [
+            "前面1排svip",
+            "1"
+        ],
+        [
+            "前面1排svip",
+            "1"
+        ],
+        [
+            "前面3排svip",
+            "3"
+        ],
+        [
+            "前面4排svip",
+            "4"
+        ],
+        [
+            "前面5排svip",
+            "5"
+        ],
+        [
+            "",
+            null
+        ]
+    ]
+    let vip_area_infoArr = [
+        [
+            "中间2排vip",
+            "2"
+        ],
+        [
+            "中间3排vip",
+            "3"
+        ],
+        [
+            "中间4排vip",
+            "4"
+        ],
+        [
+            "中间5排vip",
+            "5"
+        ]
+    ]
+    let general_area_infoArr = [
+        [
+            "后面几排普通座椅"
+        ],
+        [
+            "后面普通座椅"
+        ],
+        [
+            "其余为普通座椅"
+        ],
+        [
+            "其余为普通位置"
+        ]
+    ]
+
+    let yitu = getRandomElement(yituArr)
+    let room_name = getRandomElement(room_nameArr)
+    let event_name = getRandomElement(event_nameArr)
+    let input_total_people = getRandomElement(input_total_peopleArr)
+    let svip_area_info = getRandomElement(svip_area_infoArr)
+    let vip_area_info = getRandomElement(vip_area_infoArr)
+    let general_area_info = getRandomElement(general_area_infoArr)
+    let string = `我${yitu}${room_name}召开一个${event_name}，${input_total_people}人，${svip_area_info[0]}，${vip_area_info[0]}，${general_area_info[0]}。`
+    let template_real = {
+        "questions": string,
+        "input_total_people": input_total_people,
+        "svip_area_info": svip_area_info[1],
+        "vip_area_info": vip_area_info[1],
+        "general_area_info": general_area_info[0]
+    }
+
+
+
+    return template_real
+
+
+}
+
+
+async function VIEW_SIMULATION() {
+    let actonArr = [
+        "模拟",
+        "转到",
+        "看看",
+        "看",
+        "跳转",
+        "进入"
+    ]
+    let location1Arr = [
+        ["第一排", 1],
+        ["第二排", 2],
+        ["第三排", 3],
+        ["第四排", 4],
+        ["第五排", 5],
+        ["倒数第一排", -1],
+        ["倒数第二排", -2],
+        ["倒数第三排", -3],
+        ["倒数第四排", -4],
+        ["倒数第五排", -5]
+    ]
+
+    let location2Arr = [
+        ["最左", 1],
+        ["最右", -1],
+        ["第一个", 1],
+        ["最后一个", -1],
+        ["中间", 0.5],
+        ["最左座位", 1],
+        ["最右座位", -1],
+        ["第一个座位", 1],
+        ["最后一个座位", -1],
+        ["中间座位", 0.5],
+    ]
+
+    let location1 = getRandomElement(location1Arr)
+    let acton = getRandomElement(actonArr)
+    let location2 = getRandomElement(location2Arr)
+
+    // let conversation_id = getRandomElement(conversation_idArr)
+    let template_real = {
+        "user_instruction": `${acton}${location1[0]}${location2[0]}的可视域效果。`,
+        line_number: location1[0],
+        seat_number: location2[0],
+    }
+    return template_real
+}
+
+
+
+
+async function COLOR_REPLACEMENT() {
+
+
+    let actonArr = [
+        ["VIP", "vip"],
+        ["SVIP", "svip"],
+        ["普通", "general"],
+        ["VIP区", "vip"],
+        ["SVIP区", "svip"],
+        ["普通区", "general"],
+        ["", "all"],
+        ["所有", "all"],
+        ["所有区", "all"],
+        ["全部", "all"],
+    ]
+    let location1Arr = [
+        "座位", "椅子", "座椅", "座位颜色", "椅子颜色", "座椅颜色"
+    ]
+
+    let location2Arr = [
+        "替换为", "换成", "更换为", "改成", "替换成", "换成"
+    ]
+    let location3Arr = [
+        ["红色", "宝石红"],
+        ["宝石红", "宝石红"],
+        ["蓝色", "极光蓝"],
+        ["极光蓝", "极光蓝"],
+        ["金色", "晨曦金"],
+        ["晨曦金", "晨曦金"],
+        ["黄色", "晨曦金"],
+        ["金黄色", "晨曦金"],
+        ["白色", "皓玉白"],
+        ["皓玉白", "皓玉白"],
+        ["绿色", "琉璃绿"],
+        ["琉璃绿", "琉璃绿"],
+        ["灰色", "混凝土"],
+        ["混凝土", "混凝土"],
+        ["半透明", "半透明"],
+        ["透明", "半透明"],
+        ["半透", "半透明"],
+        ["默认颜色", "默认"]
+    ]
+
+    let location1 = getRandomElement(location1Arr)
+    let acton = getRandomElement(actonArr)
+    let location2 = getRandomElement(location2Arr)
+    let location3 = getRandomElement(location3Arr)
+
+    // let conversation_id = getRandomElement(conversation_idArr)
+    let template_real = {
+        "user_instruction": `${acton[0]}${location1}${location2}${location3[0]}。`,
+        "area": acton[1],
+        "color": location3[1]
+
+    }
+
+    return template_real
+}
+
+async function VENUE_INQUIRY() {
+
+
+    let peopleNums = [
+        "150",
+        "200",
+        "250",
+        "350",
+        "400",
+        "300",
+        "500",
+        "1000",
+        "1500",
+        "50",
+        "100",
+        "200",
+        "300",
+        "400",
+        "450",
+        "500",
+        "550",
+        "600",
+        "700"
+    ]
+
+    
+    let input_total_people = getRandomElement(peopleNums)
+    let questionArr = [
+            { questions: `我要开一个${input_total_people}人规模的会议，帮我推荐会议室`, input_total_people: input_total_people },
+            { questions: `帮我推荐一个可盛纳${input_total_people}人规模的会议厅`, input_total_people: input_total_people },
+            { questions: `近期要召开一个${input_total_people}人规模的活动，有哪些会议厅可用`, input_total_people: input_total_people },
+            { questions: `我要组织一个${input_total_people}人规模的活动，帮我推荐会议厅`, input_total_people: input_total_people },
+            { questions: `帮我推荐一个可盛纳${input_total_people}人规模的会议厅`, input_total_people: input_total_people },
+            { questions: `我要组织一个${input_total_people}人规模的活动，帮我推荐一个会议厅`, input_total_people: input_total_people },
+            { questions: `我要组织一个${input_total_people}人规模的会议，帮我推荐会议厅`, input_total_people: input_total_people },
+            { questions: `我要组织一个超过${input_total_people}人规模的会议`, input_total_people: input_total_people },
+            { questions: `${input_total_people}人规模的会议`, input_total_people: input_total_people },
+            { questions: `${input_total_people}人，有什么房间推荐`, input_total_people: input_total_people },
+            { questions: `${input_total_people}人规模的会议有哪些推荐`, input_total_people: input_total_people }
+    ]
+    let question = getRandomElement(questionArr)
+    
+
+
+    // let conversation_id = getRandomElement(conversation_idArr)
+    let template_real = {
+        "user_instruction": question,
+        "peopleNum": input_total_people
+
+    }
+
+    return template_real
+}
+
+async function VENUE_INQUIRY_A(VENUE_INQUIRY1){
+    console.warn(VENUE_INQUIRY1)
+    return VENUE_INQUIRY1
+
+}
+
+
+
+async function ROOM_RECOMMENDATION() {
+    let room_nameArr = [
+        "峰会厅",
+        "大厅",
+        "会议厅",
+        "2层243会议室",
+        "2层245会议室",
+        "F大会堂",
+        "多功能厅",
+        "2层246会议室",
+        "2层211会议室",
+        "2层212会议室",
+        "2层213会议室",
+        "2层214会议室",
+        "2层215会议室",
+        "2层216会议室",
+        "2层217会议室",
+        "2层218会议室",
+        "2层223会议室",
+        "2层225会议室",
+        "ABCD宴会厅",
+        "3层A宴会厅",
+        "2层265会议室",
+        "2层266会议室",
+        "2层267会议室",
+        "2层268会议室",
+        "1号展览厅",
+        "2号展览厅",
+        "3号展览厅",
+        "4号展览厅",
+        "2层252会议室",
+        "2层251会议室",
+        "2层253会议室",
+        "2层254会议室"
+]
+
+    
+    let room_name = getRandomElement(room_nameArr)
+    let questionArr = [
+            { questions: `看看${room_name}`, room_name: room_name },
+            { questions: `带我看看${room_name}`, room_name: room_name },
+            { questions: `镜头跳转到${room_name}`, room_name: room_name },
+            { questions: `镜头跳转到${room_name}`, room_name: room_name },
+            { questions: `跳转到${room_name}`, room_name: room_name },
+            { questions: `转到${room_name}`, room_name: room_name },
+    ]
+    let question = getRandomElement(questionArr)
+    
+    let template_real = question
+
+    return template_real
+}
