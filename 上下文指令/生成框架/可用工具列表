@@ -1,0 +1,25 @@
+        - recommend_room: 根据人数和需求推荐房间。核心参数: input_total_people(int,必填), conversation_id(str), arrange_type(str,可选"剧院式"/"课桌式"/...), room_name(str,可选), exclude_rooms(list[str],可选), svip_area_info(dict), vip_area_info(dict), general_area_info(dict)。
+        - adjust_room_layout: 调整指定房间的布局细节。核心参数: room_name(str,必填), conversation_id(str), arrange_type(str), input_total_people(int), svip_area_info(dict), vip_area_info(dict), general_area_info(dict)。
+        - : 查询指定房间的历史布局详情。参数: room_name(str), conversation_id(str)。
+        - answer_from_layout: 根据当前的布局JSON信息回答用户关于布局的具体问题(如"能坐多少人")。参数: layout(str, 布局JSON字符串), question(str, 用户问题)。
+        - take_layout_screenshot: 为当前布局生成分享二维码/截图。参数: layout(str, 布局JSON字符串)。
+
+        # --- 视觉与控制工具 (tools.py实现) ---
+        - layout_show_exit_path: 显示/隐藏指定房间的疏散(逃生)路线。参数: room_name(str), visible(bool, 默认True)。
+        - route_show: 显示从起点到终点的导航路径。参数: origin(str,起始房间), destination(str,目标位置如"洗手间"或房间名), visible(bool)。
+        - room_query: 执行SQL语句查询房间和家具的底层数据库信息(仅当常规工具无法获取信息时使用)。参数: query(str, SQL语句)。
+        - camera_change: 切换相机视角到指定房间(会自动调整到最佳视角)。参数: room_name(str)。
+        - camera_look_down: 切换到指定房间的俯视(顶视)视角。参数: room_name(str)。
+        - camera_look_gate: 切换视角到指定的大门位置。参数: name(str, 如"1号门", "2号门"...)。
+        - layout_show_view: 切换视角到特定的座位坐标(模拟人眼视角)。参数: row(float), column(float)。
+        - furniture_change: 修改指定区域的家具/桌布颜色。参数: area("vip"/"svip"/"general"/"all"), color("晨曦金"/"皓玉白"/"宝石红"/...)。
+        - furniture_show_single: 展示或隐藏单个特定的家具模型。参数: name(str), visible(bool), color(str)。
+        - furniture_show_by_category: 按类别展示家具。参数: category("桌子"/"椅子"/...), visible(bool)。
+        - layout_show_seat_num: 显示或隐藏座椅编号。参数: visible(bool)。
+        - layout_show_marker: 显示或隐藏场景标尺。参数: visible(bool)。
+        - layout_show_viewshed: 显示指定坐标的可视域效果。参数: x(float), y(float), visible(bool)。
+        - layout_clear: 清空当前房间的布局方案。无参数。
+        - layout_share: (已废弃，请优先使用 take_layout_screenshot) 截图当前场景并分享。参数: layout(str)。
+        - say_hi: 进行自我介绍。无参数。
+        - camera_reset: 重置相机视角。无参数。
+        - camera_zoom: 缩放或升降相机镜头。参数: step(float, 正数缩小/抬高, 负数放大/降低)。

@@ -50,6 +50,7 @@ const DIALOGUE_STAGES = {
     ARRANGEMENT_ADJUSTMENT: '调整排桌方案',
     COLOR_REPLACEMENT: '替换颜色',
     VIEW_SIMULATION: '视角模拟',
+    ROOM_QUERY: '查询房间',
 };
 
 // 从数组中随机选择一个元素
@@ -67,6 +68,7 @@ async function buildQusetion() {
     let ROOM_RECOMMENDATION1 = await ROOM_RECOMMENDATION()
     let GREETING1 = await GREETING()
     let ARRANGEMENT_ADJUSTMENT1 = await ARRANGEMENT_ADJUSTMENT()
+    let ROOM_QUERY1 = await ROOM_QUERY()
 
     let QUESTION_TYPES = await {
         [DIALOGUE_STAGES.GREETING]: [GREETING1],
@@ -76,7 +78,7 @@ async function buildQusetion() {
         [DIALOGUE_STAGES.ARRANGEMENT_ADJUSTMENT]: [ARRANGEMENT_ADJUSTMENT1],
         [DIALOGUE_STAGES.VIEW_SIMULATION]: [VIEW_SIMULATION1],
         [DIALOGUE_STAGES.COLOR_REPLACEMENT]: [COLOR_REPLACEMENT1],
-        // [DIALOGUE_STAGES.Exit]: []
+        [DIALOGUE_STAGES.ROOM_QUERY]: [ROOM_QUERY1],
     };
     return QUESTION_TYPES
 }
@@ -186,7 +188,7 @@ async function generateDialogues(numDialogues) {
 
 // 写入数据到JSON文件
 async function writeData() {
-for (let i = 1; i <= 300; i++) {
+for (let i = 1; i <= 1000; i++) {
        
             Global_Info.UUID=uuidv1()
             let jsonData= await generateDialogues(1);
@@ -194,6 +196,11 @@ for (let i = 1; i <= 300; i++) {
       
     }
     console.log('所有文件创建完成');
+}
+//用SQL查询房间
+async function ROOM_QUERY() {
+let QUESTION_TYPES
+
 }
 
 // 座位排布问题创建
@@ -383,7 +390,7 @@ async function SEAT_ARRANGEMENT_A(SEAT_ARRANGEMENT1, QUESTION_TYPES) {
     Global_Info.Sviprow = svip_area_info[1]
     Global_Info.Viprow = vip_area_info[1]
     Global_Info.Generalrow = general_area_info[0]
-    //console.log(JSON.stringify(template_real))
+
     return template_real
 }
 //可视域问题创建

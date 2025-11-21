@@ -1,0 +1,77 @@
+[
+  {
+    "question": "计算大型类型的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 会议室类型 = '大型'",
+    "thought": "分析问题：\"计算大型类型的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：会议室类型 = '大型'。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "统计8层并且可容纳人数大于150人的会议室总数",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 8 AND 可容纳人数 > 150",
+    "thought": "分析问题：\"统计8层并且可容纳人数大于150人的会议室总数\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个多条件查询，需要同时满足多个条件. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：条件1：所属楼层 = 8，条件2：可容纳人数 > 150，使用AND连接表示需要同时满足。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "查询9层的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 9",
+    "thought": "分析问题：\"查询9层的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：所属楼层 = 9。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "查询10层的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 10",
+    "thought": "分析问题：\"查询10层的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：所属楼层 = 10。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "找出组合类型的会议室有多少个",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 会议室类型 = '组合'",
+    "thought": "分析问题：\"找出组合类型的会议室有多少个\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：会议室类型 = '组合'。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "统计10层并且可容纳人数等于80人的会议室总数",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 10 AND 可容纳人数 = 80",
+    "thought": "分析问题：\"统计10层并且可容纳人数等于80人的会议室总数\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个多条件查询，需要同时满足多个条件. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：条件1：所属楼层 = 10，条件2：可容纳人数 = 80，使用AND连接表示需要同时满足。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "找出10层的会议室有多少个",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 10",
+    "thought": "分析问题：\"找出10层的会议室有多少个\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：所属楼层 = 10。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "计算6层的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 6",
+    "thought": "分析问题：\"计算6层的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：所属楼层 = 6。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "查询3层且可容纳人数等于10人的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 3 AND 可容纳人数 = 10",
+    "thought": "分析问题：\"查询3层且可容纳人数等于10人的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个多条件查询，需要同时满足多个条件. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：条件1：所属楼层 = 3，条件2：可容纳人数 = 10，使用AND连接表示需要同时满足。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "统计小型类型的会议室总数",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 会议室类型 = '小型'",
+    "thought": "分析问题：\"统计小型类型的会议室总数\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：会议室类型 = '小型'。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "计算可容纳人数等于150人的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 可容纳人数 = 150",
+    "thought": "分析问题：\"计算可容纳人数等于150人的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：可容纳人数 = 150。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "找出小型类型的会议室有多少个",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 会议室类型 = '小型'",
+    "thought": "分析问题：\"找出小型类型的会议室有多少个\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：会议室类型 = '小型'。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "查询3层的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 3",
+    "thought": "分析问题：\"查询3层的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：所属楼层 = 3。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "统计可容纳人数小于等于80人的会议室总数",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 可容纳人数 <= 80",
+    "thought": "分析问题：\"统计可容纳人数小于等于80人的会议室总数\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：可容纳人数 <= 80。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  },
+  {
+    "question": "计算10层的会议室数量",
+    "sql": "SELECT COUNT(*) AS 会议室数量 FROM meeting_rooms WHERE 所属楼层 = 10",
+    "thought": "分析问题：\"计算10层的会议室数量\"，这是一个关于会议室数量的查询请求。 识别关键信息：需要查询会议室数量，使用COUNT(*)函数。 提取查询条件：这是一个单条件查询. 确定表结构：涉及会议室名称、会议室类型、可容纳人数、所属楼层字段。 构建SQL逻辑：SELECT COUNT(*) FROM meeting_rooms WHERE [条件] 具体条件分析：查询条件：所属楼层 = 10。 最终SQL结构：使用COUNT(*)统计数量，WHERE子句包含所有筛选条件。"
+  }
+]

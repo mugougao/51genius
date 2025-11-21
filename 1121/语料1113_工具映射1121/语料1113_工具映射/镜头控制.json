@@ -1,0 +1,1616 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "视角下降一些。",
+    "thought": {
+      "routing_thought": "用户指令'视角下降一些',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机位置降低一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机位置降低一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机下降50米。",
+    "thought": {
+      "routing_thought": "用户指令'相机下降50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为50米,所以参数为'step':-50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头下降100米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头下降100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机减少一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机减少一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头升高50米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头升高50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为50米,所以参数为'step':50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面高度下降50米。",
+    "thought": {
+      "routing_thought": "用户指令'画面高度下降50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为50米,所以参数为'step':-50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头降低25米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头降低25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为25米,所以参数为'step':-25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角位置提高20米。",
+    "thought": {
+      "routing_thought": "用户指令'视角位置提高20米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为20米,所以参数为'step':20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度往下100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度往下100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'往下'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头升高25米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头升高25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为25米,所以参数为'step':25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头提高10米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头提高10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角位置提高25米。",
+    "thought": {
+      "routing_thought": "用户指令'视角位置提高25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为25米,所以参数为'step':25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面下降50米。",
+    "thought": {
+      "routing_thought": "用户指令'画面下降50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为50米,所以参数为'step':-50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机位置降低100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机位置降低100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头抬高25米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头抬高25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为25米,所以参数为'step':25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头减少60米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头减少60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为60米,所以参数为'step':-60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头下降30米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头下降30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为30米,所以参数为'step':-30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置往下10米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置往下10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'往下'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为10米,所以参数为'step':-10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度减少一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度减少一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机降低60米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机降低60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为60米,所以参数为'step':-60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头高度升高10米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头高度升高10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面高度升高100米。",
+    "thought": {
+      "routing_thought": "用户指令'画面高度升高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头位置提高一点。",
+    "thought": {
+      "routing_thought": "用户指令'镜头位置提高一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机降低100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机降低100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机往下走100米。",
+    "thought": {
+      "routing_thought": "用户指令'相机往下走100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'往下走'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置往上25米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置往上25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'往上'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为25米,所以参数为'step':25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角下降60米。",
+    "thought": {
+      "routing_thought": "用户指令'视角下降60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为60米,所以参数为'step':-60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机提高30米。",
+    "thought": {
+      "routing_thought": "用户指令'相机提高30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为30米,所以参数为'step':30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机位置提高。",
+    "thought": {
+      "routing_thought": "用户指令'相机位置提高',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面抬高一些。",
+    "thought": {
+      "routing_thought": "用户指令'画面抬高一些',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机升高60米。",
+    "thought": {
+      "routing_thought": "用户指令'相机升高60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为60米,所以参数为'step':60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头抬高10米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头抬高10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面提高60米。",
+    "thought": {
+      "routing_thought": "用户指令'画面提高60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为60米,所以参数为'step':60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机减少30米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机减少30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为30米,所以参数为'step':-30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度抬高25米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度抬高25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为25米,所以参数为'step':25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机位置提高60米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机位置提高60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为60米,所以参数为'step':60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机减少25米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机减少25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为25米,所以参数为'step':-25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机减少100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机减少100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度升高60米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度升高60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为60米,所以参数为'step':60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机升高一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机升高一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角变高30米。",
+    "thought": {
+      "routing_thought": "用户指令'视角变高30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'变高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为30米,所以参数为'step':30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角升高30米。",
+    "thought": {
+      "routing_thought": "用户指令'视角升高30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为30米,所以参数为'step':30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面下降100米。",
+    "thought": {
+      "routing_thought": "用户指令'画面下降100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头位置降低。",
+    "thought": {
+      "routing_thought": "用户指令'镜头位置降低',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面下降一些。",
+    "thought": {
+      "routing_thought": "用户指令'画面下降一些',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头高度下降一点。",
+    "thought": {
+      "routing_thought": "用户指令'镜头高度下降一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机提高100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机提高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机位置提高10米。",
+    "thought": {
+      "routing_thought": "用户指令'相机位置提高10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度减少100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度减少100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面减少一些。",
+    "thought": {
+      "routing_thought": "用户指令'画面减少一些',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度变高一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度变高一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'变高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面降低一些。",
+    "thought": {
+      "routing_thought": "用户指令'画面降低一些',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机下降。",
+    "thought": {
+      "routing_thought": "用户指令'相机下降',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机减少10米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机减少10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为10米,所以参数为'step':-10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头下降10米。",
+    "thought": {
+      "routing_thought": "用户指令'镜头下降10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为10米,所以参数为'step':-10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机降低20米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机降低20米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为20米,所以参数为'step':-20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机上行10米。",
+    "thought": {
+      "routing_thought": "用户指令'相机上行10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'上行'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机位置降低50米。",
+    "thought": {
+      "routing_thought": "用户指令'相机位置降低50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为50米,所以参数为'step':-50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度抬高一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度抬高一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角位置提高一点。",
+    "thought": {
+      "routing_thought": "用户指令'视角位置提高一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角位置降低一点。",
+    "thought": {
+      "routing_thought": "用户指令'视角位置降低一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度抬高20米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度抬高20米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为20米,所以参数为'step':20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机高度抬高100米。",
+    "thought": {
+      "routing_thought": "用户指令'相机高度抬高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置提高25米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置提高25米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为25米,所以参数为'step':25。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 25
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度抬高100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度抬高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度升高一点。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度升高一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置降低10米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置降低10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为10米,所以参数为'step':-10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头高度升高。",
+    "thought": {
+      "routing_thought": "用户指令'镜头高度升高',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面减少60米。",
+    "thought": {
+      "routing_thought": "用户指令'画面减少60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为60米,所以参数为'step':-60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角提高50米。",
+    "thought": {
+      "routing_thought": "用户指令'视角提高50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为50米,所以参数为'step':50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面抬高100米。",
+    "thought": {
+      "routing_thought": "用户指令'画面抬高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机高度减少10米。",
+    "thought": {
+      "routing_thought": "用户指令'相机高度减少10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为10米,所以参数为'step':-10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置提高100米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置提高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机提高50米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机提高50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为50米,所以参数为'step':50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置提高60米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置提高60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为60米,所以参数为'step':60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面升高50米。",
+    "thought": {
+      "routing_thought": "用户指令'画面升高50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为50米,所以参数为'step':50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机高度下降60米。",
+    "thought": {
+      "routing_thought": "用户指令'相机高度下降60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为60米,所以参数为'step':-60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角减少100米。",
+    "thought": {
+      "routing_thought": "用户指令'视角减少100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机降低100米。",
+    "thought": {
+      "routing_thought": "用户指令'相机降低100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为100米,所以参数为'step':-100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头下降。",
+    "thought": {
+      "routing_thought": "用户指令'镜头下降',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置提高30米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置提高30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为30米,所以参数为'step':30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机位置提高一些。",
+    "thought": {
+      "routing_thought": "用户指令'相机位置提高一些',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面升高20米。",
+    "thought": {
+      "routing_thought": "用户指令'画面升高20米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为20米,所以参数为'step':20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面抬高50米。",
+    "thought": {
+      "routing_thought": "用户指令'画面抬高50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为50米,所以参数为'step':50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机抬高10米。",
+    "thought": {
+      "routing_thought": "用户指令'相机抬高10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置降低20米。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置降低20米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为20米,所以参数为'step':-20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机位置提高100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机位置提高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机升高100米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机升高100米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为100米,所以参数为'step':100。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面高度下降10米。",
+    "thought": {
+      "routing_thought": "用户指令'画面高度下降10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为10米,所以参数为'step':-10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面高度下降60米。",
+    "thought": {
+      "routing_thought": "用户指令'画面高度下降60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为60米,所以参数为'step':-60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角位置提高10米。",
+    "thought": {
+      "routing_thought": "用户指令'视角位置提高10米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为10米,所以参数为'step':10。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 10
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机高度抬高20米。",
+    "thought": {
+      "routing_thought": "用户指令'相机高度抬高20米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为20米,所以参数为'step':20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面高度抬高60米。",
+    "thought": {
+      "routing_thought": "用户指令'画面高度抬高60米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'抬高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为60米,所以参数为'step':60。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 60
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "视角下降50米。",
+    "thought": {
+      "routing_thought": "用户指令'视角下降50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'下降'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为50米,所以参数为'step':-50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头降低。",
+    "thought": {
+      "routing_thought": "用户指令'镜头降低',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机高度减少50米。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机高度减少50米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'减少'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为50米,所以参数为'step':-50。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "相机降低30米。",
+    "thought": {
+      "routing_thought": "用户指令'相机降低30米',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为30米,所以参数为'step':-30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "摄像机升高。",
+    "thought": {
+      "routing_thought": "用户指令'摄像机升高',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "画面位置降低。",
+    "thought": {
+      "routing_thought": "用户指令'画面位置降低',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "降低。",
+    "thought": {
+      "routing_thought": "用户指令'降低',经过系统内部的模糊匹配，识别用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "升高一点。",
+    "thought": {
+      "routing_thought": "用户指令'升高一点',经过系统内部的模糊匹配，识别用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'升高'，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "提高30米。",
+    "thought": {
+      "routing_thought": "用户指令'提高30米',经过系统内部的模糊匹配，识别用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'提高'，这对应'camera_zoom'工具的正数'step'值。用户指令中指定了高度为30米,所以参数为'step':30。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 30
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "降低20米。",
+    "thought": {
+      "routing_thought": "用户指令'降低20米',经过系统内部的模糊匹配，识别用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'降低'，这对应'camera_zoom'工具的负数'step'值。用户指令中指定了高度为20米,所以参数为'step':-20。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -20
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "移动镜头",
+    "thought": {
+      "routing_thought": "用户指令'移动镜头'，直接匹配到'控制镜头'意图。这关联到'camera_zoom'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的方向。",
+      "action_thought": "用户的指令中没有明确指定如何移动镜头。在没有上下文的情况下，我无法调用'camera_zoom'工具。因此，我需要向用户提问以获取移动镜头信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问您是希望升高镜头还是降低镜头呢？"
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "镜头升高降低",
+    "thought": {
+      "routing_thought": "用户指令'镜头升高降低'，直接匹配到'控制镜头'意图。这关联到'camera_zoom'工具，我将调用该工具来执行相关操作，但该工具需要指定具体单一的方向。",
+      "action_thought": "用户的指令中'升高'及'降低'存在冲突。在没有具体单一方向的情况下，我无法调用'camera_zoom'工具。因此，我需要向用户提问以获取澄清。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问您是希望升高镜头还是降低镜头呢？"
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "把镜头拉近一点。",
+    "thought": {
+      "routing_thought": "用户指令'把镜头拉近一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'拉近'，因该工具为俯视视角，这对应'camera_zoom'工具的负数'step'值。因为用户没有指定具体的距离，我将使用默认值-1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": -1
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "把镜头拉远一点。",
+    "thought": {
+      "routing_thought": "用户指令'把镜头拉远一点',用户的核心需求是'控制镜头'。这是一个简单的、无状态的操作，适合进行直接的工具调用。",
+      "action_thought": "我作为指挥，职责是进行参数提取。用户的指令中包含了关键词'拉远'，因该工具为俯视视角，这对应'camera_zoom'工具的正数'step'值。因为用户没有指定具体的距离，我将使用默认值1。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_zoom",
+      "parameters": {
+        "step": 1
+      }
+    }
+  }
+]

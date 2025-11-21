@@ -1,0 +1,149 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "给所有座位编号",
+    "thought": {
+      "routing_thought": "用户指令'给所有座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望对座位进行编号，代表希望显示编号。所以参数为'{'visible':true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "显示编号",
+    "thought": {
+      "routing_thought": "用户指令'显示编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望显示编号。所以参数为'{'visible':true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "座位编号",
+    "thought": {
+      "routing_thought": "用户指令'座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户未明确说希望显示或隐藏编号，默认显示编号。所以参数为'{'visible':true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "显示座位编号",
+    "thought": {
+      "routing_thought": "用户指令'显示座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望显示座位编号。所以参数为'{'visible':true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "查看座位编号",
+    "thought": {
+      "routing_thought": "用户指令'查看座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望查看座位编号，说明希望显示座位编号。所以参数为'{'visible':true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏座位编号",
+    "thought": {
+      "routing_thought": "用户指令'隐藏座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望隐藏座位编号。所以参数为'{'visible':false}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除座位编号",
+    "thought": {
+      "routing_thought": "用户指令'删除座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望删除座位编号，说明希望隐藏座位编号。所以参数为'{'visible':false}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "不显示座位编号",
+    "thought": {
+      "routing_thought": "用户指令'不显示座位编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望不显示座位编号，说明希望隐藏座位编号。所以参数为'{'visible':false}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "隐藏编号",
+    "thought": {
+      "routing_thought": "用户指令'隐藏编号',匹配到'座位编号'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_seat_num'工具，该工具的输入为visible，代表显示或隐藏状态，用户希望隐藏座位编号。所以参数为'{'visible':false}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_seat_num",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "显示并隐藏座位编号",
+    "thought": {
+      "routing_thought": "用户指令'显示并隐藏座位编号'，匹配到'座位编号'意图。这关联到'layout_show_seat_num'工具。",
+      "action_thought": "用户的指令中'显示'及'隐藏'存在冲突。逻辑上存在矛盾，我无法调用'layout_show_seat_num'工具。因此，我需要向用户提问以获取澄清。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问您是希望显示座位编号，还是隐藏座位编号呢？"
+    }
+  }
+]

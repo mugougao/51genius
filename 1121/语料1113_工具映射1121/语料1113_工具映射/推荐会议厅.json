@@ -1,0 +1,2105 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个700人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个200人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1000人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个1500人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个600人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个50人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "300人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个400人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个50人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个1500人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个550人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个550人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "550人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个100人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个100人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过350人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过350人’。根据'recommend_room'工具的要求，我将提取数值‘350’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个1500人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个1000人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳450人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "700人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳300人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个300人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "250人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过150人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过150人’。根据'recommend_room'工具的要求，我将提取数值‘150’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过500人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过500人’。根据'recommend_room'工具的要求，我将提取数值‘500’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个1000人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1500人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过200人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过200人’。根据'recommend_room'工具的要求，我将提取数值‘200’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "200人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个450人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个1000人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个150人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个600人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个1500人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个300人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个700人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个250人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个300人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳700人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个500人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "250人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个450人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个500人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "700人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "450人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "350人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个350人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "150人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "100人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个400人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "400人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳1500人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过1000人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过1000人’。根据'recommend_room'工具的要求，我将提取数值‘1000’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "100人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个600人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "200人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个250人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "150人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "150人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过450人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过450人’。根据'recommend_room'工具的要求，我将提取数值‘450’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳400人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "600人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个550人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个400人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个450人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "450人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个550人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个150人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过1500人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过1500人’。根据'recommend_room'工具的要求，我将提取数值‘1500’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个350人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "50人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个100人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个50人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1500人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳150人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳1000人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个100人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个500人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个600人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "550人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个250人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过300人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过300人’。根据'recommend_room'工具的要求，我将提取数值‘300’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "700人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳50人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个250人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个300人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "400人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "450人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个50人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "400人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个1500人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳250人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "600人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "300人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个600人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个200人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个400人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳550人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳600人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个700人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳200人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个1000人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳500人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个700人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "600人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=600'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 600
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过50人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过50人’。根据'recommend_room'工具的要求，我将提取数值‘50’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个200人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1000人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "100人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个350人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "50人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=50'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 50
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个100人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1000人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "近期要召开一个450人规模的活动，有哪些会议厅可用",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "350人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个700人规模的会议，帮我推荐会议室",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=700'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 700
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳350人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个450人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=450'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 450
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个200人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个1000人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1000'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1000
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个500人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "200人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个150人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "300人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=300'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 300
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "500人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个200人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=200'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 200
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "500人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个150人规模的活动，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "500人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个400人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=400'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "帮我推荐一个可盛纳100人规模的会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=100'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 100
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "550人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=550'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 550
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个超过400人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "用户指令中包含关键词‘超过400人’。根据'recommend_room'工具的要求，我将提取数值‘400’作为input_total_people参数的最小值进行推荐。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 400
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "350人规模的会议",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=350'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 350
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个150人规模的活动，帮我推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=150'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 150
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "1500人规模的会议有哪些推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=1500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 1500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个500人规模的会议，帮我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=500'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "input_total_people": 500
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "请为我推荐会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,匹配到'推荐会议厅'意图。适合直接进行工具调用。但该工具需要指定具体的会议人数。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，用户的指令中没有明确指定人数。在没有上下文的情况下，我无法调用'recommend_room'工具。因此，我需要向用户提问以获取人数信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问您需要能容纳多少人数的会议厅呢？"
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要开一个大型会议，帮我推荐一下",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,匹配到'推荐会议厅'意图。适合直接进行工具调用。但该工具需要指定具体的会议人数。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，用户的指令中没有明确指定人数。在没有上下文的情况下，我无法调用'recommend_room'工具。因此，我需要向用户提问以获取人数信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问该大型会议需要能容纳多少人数的会议厅呢？"
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个0人的会议，帮我找一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘找一个会议厅’,匹配到'推荐会议厅'意图。适合直接进行工具调用。但该工具需要指定具体的会议人数，且数字必须为正整数。",
+      "action_thought": "用户需要举办一个0人的会议。这不符合工具的调用条件，我无法调用'recommend_room'工具。因此，我需要向用户提问以获取正确的人数信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "会议人数需要是一个正整数哦，请问具体有多少人参加呢？？"
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "我要组织一个-10人的会议，推荐一个会议厅",
+    "thought": {
+      "routing_thought": "用户指令‘推荐一个会议厅’,匹配到'推荐会议厅'意图。适合直接进行工具调用。但该工具需要指定具体的会议人数，且数字必须为正整数。",
+      "action_thought": "用户需要举办一个-10人的会议。这不符合工具的调用条件，我无法调用'recommend_room'工具。因此，我需要向用户提问以获取正确的人数信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "会议人数需要是一个正整数哦，请问具体有多少人参加呢？？"
+    }
+  }
+]

@@ -1,0 +1,3484 @@
+[
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第二排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第二排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第五排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第五排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第一排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第一排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第四排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第四排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第一排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第一排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第一排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第一排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数五排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数五排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转到倒数第五排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转到倒数第五排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "变成倒数第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'变成倒数第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第二排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第二排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第四排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第四排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数五排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数五排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第四排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第四排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第一排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第一排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第一排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第一排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第三排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第三排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第五排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第五排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第三排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第三排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第四排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第四排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第五排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第五排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第五排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第五排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第三排最后一个座位可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第三排最后一个座位可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第五排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第五排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第三排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第三排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第五排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第五排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第一排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第一排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第三排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第三排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第四排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第四排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第四排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第四排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第四排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第四排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第一排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第一排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第五排第一个的可视域。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第五排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第四排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第四排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第二排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第二排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转到倒数第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转到倒数第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第二排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第二排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第五排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第五排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "第四排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'第四排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "第一排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'第一排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第三排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第三排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第一排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第一排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "一排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'一排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第一排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第一排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "三排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'三排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第四排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第四排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第二排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第二排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第五排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第五排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第二排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第二排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第五排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第五排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第二排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第二排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "第四排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'第四排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第二排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第二排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第三排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第三排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第一排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第一排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第四排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第四排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第一排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第一排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第二排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第二排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "第二排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'第二排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第三排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第三排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第四排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第四排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "一排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'一排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第一排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第一排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第二排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第二排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第三排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第三排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第一排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第一排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第一排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第一排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第四排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第四排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第二排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第二排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第四排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第四排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第三排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第三排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第四排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第四排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第一排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第一排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第三排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第三排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第四排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第四排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第一排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第一排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "五排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'五排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第三排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第三排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第一排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第一排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第五排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第五排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "四排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'四排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第四排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第四排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第四排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第四排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第三排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第三排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第四排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第四排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第二排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第二排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "四排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'四排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第二排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第二排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第五排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第五排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第三排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第三排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第一排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第一排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第四排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第四排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第三排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第三排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第二排最左边的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第二排最左边的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第一排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第一排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第一排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第一排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第二排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第二排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第四排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第四排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第一排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第一排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第五排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第五排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第一排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第一排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第一排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第一排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第四排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第四排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第四排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第四排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第三排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第三排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "倒数第一排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'倒数第一排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第二排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第二排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第五排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第五排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第五排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第五排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第五排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第五排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第一排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第一排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第五排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第五排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "倒数五排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'倒数五排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第三排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第三排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第一排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第一排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第五排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第五排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第二排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第二排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第四排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第四排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第五排最右座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第五排最右座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最右座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第一排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第一排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第四排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第四排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第五排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第五排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟倒数第三排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟倒数第三排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第三排对应为-3，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第一排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第一排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第三排最后一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第三排最后一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最后一个对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第二排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第二排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "二排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'二排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第一排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第一排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第二排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第二排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第四排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第四排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第四排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第四排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第四排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第四排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第五排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第五排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第二排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第二排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第二排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第二排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第五排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第五排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第三排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第三排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转倒数第四排最后一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转倒数第四排最后一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最后一个座位对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第一排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第一排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第一排对应为-1，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-1,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第四排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第四排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第五排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第五排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第二排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第二排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第二排对应为-2，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "跳转第三排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'跳转第三排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第五排对应为5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看倒数第四排最左的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看倒数第四排最左的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码最左对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第二排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第二排第一个的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "转到倒数第五排最左座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'转到倒数第五排最左座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码最左座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入倒数第四排中间座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入倒数第四排中间座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第四排对应为-4，y代表座位号码中间座位对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-4,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -4,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第二排第一个座位的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看看第二排第一个座位的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看第三排中间的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'看第三排中间的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第三排对应为3，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":3,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 3,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "进入第二排最右的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'进入第二排最右的可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码最右对应为-1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":-1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": -1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'关闭可视域效果。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "用户的意图是关闭可视域。我将调用'layout_show_viewshed'工具，并仅将'visible'参数设置为'false'。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "禁用可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'禁用可视域效果。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "用户的意图是关闭可视域。我将调用'layout_show_viewshed'工具，并仅将'visible'参数设置为'false'。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除可视域。",
+    "thought": {
+      "routing_thought": "用户指令'删除可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "用户的意图是关闭可视域。我将调用'layout_show_viewshed'工具，并仅将'visible'参数设置为'false'。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "删除可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'删除可视域效果。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "用户的意图是关闭可视域。我将调用'layout_show_viewshed'工具，并仅将'visible'参数设置为'false'。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "关闭可视域。",
+    "thought": {
+      "routing_thought": "用户指令'关闭可视域。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "用户的意图是关闭可视域。我将调用'layout_show_viewshed'工具，并仅将'visible'参数设置为'false'。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看第二排第一个座位的视野。",
+    "thought": {
+      "routing_thought": "用户指令'看看第二排第一个座位的视野。',这可以理解为'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第二排对应为2，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":2,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 2,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "模拟第四排第一个座位的视野范围。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第四排第一个座位的视野范围。',这可以理解为'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第四排对应为4，y代表座位号码第一个座位对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":4,\"y\":1,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": 4,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看倒数第五排中间的可视范围。",
+    "thought": {
+      "routing_thought": "用户指令'看看倒数第五排中间的可视范围。',这可以理解为'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码倒数第五排对应为-5，y代表座位号码中间对应为0.5，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":-5,\"y\":0.5,\"visible\":true}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "x": -5,
+        "y": 0.5,
+        "visible": true
+      }
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "看看可视域",
+    "thought": {
+      "routing_thought": "用户指令'看看可视域'，直接匹配到'可视域'意图。这关联到'layout_show_viewshed'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的座位。",
+      "action_thought": "用户的指令中没有明确指定查看哪个座位的可视域。在没有上下文的情况下，我无法调用'layout_show_viewshed'工具。因此，我需要向用户提问以获取座位信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问您想查看哪个座位的可视域呢？"
+    }
+  },
+  {
+    "conversation_history": [],
+    "user_instruction": "显示可视域",
+    "thought": {
+      "routing_thought": "用户指令'显示可视域'，直接匹配到'可视域'意图。这关联到'layout_show_viewshed'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的座位。",
+      "action_thought": "用户的指令中没有明确指定查看哪个座位的可视域。在没有上下文的情况下，我无法调用'layout_show_viewshed'工具。因此，我需要向用户提问以获取座位信息。"
+    },
+    "action": {
+      "action_type": "CLARIFICATION_QUESTION",
+      "final_answer": "请问您想查看哪个座位的可视域呢？"
+    }
+  }
+]

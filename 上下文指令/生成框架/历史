@@ -1,0 +1,556 @@
+async function Tool_flow2(Context) {
+    let tool = {
+        "role": "tool",
+        "content": {}
+    }
+    switch (Context.action.tool_name) {
+        case "say_hi":
+            tool.content = {
+                "CustomAPI": {
+                    "apiClassName": "GuoHuiCameraRegister",
+                    "apiFuncName": "GuoHuiCameraChange",
+                    "args": {
+                        "cameraType": "Default"
+                    }
+                }
+            }
+            break;
+        case "set_camera_location":
+            tool.content = {
+                "CustomAPI": {
+                    "apiClassName": "GuoHuiCameraRegister",
+                    "apiFuncName": "GuoHuiCameraChangeRound",
+                    "args": {
+                        "floor": 4,
+                        "round": [
+                            [
+                                -655.593244,
+                                10634.255121,
+                                67.735597
+                            ],
+                            [
+                                -655.190822,
+                                10623.332531,
+                                67.735597
+                            ],
+                            [
+                                -638.841915,
+                                10623.934876,
+                                67.735597
+                            ],
+                            [
+                                -639.244337,
+                                10634.857465,
+                                67.735597
+                            ]
+                        ]
+                    }
+                },
+                "ClearArrangement": true
+            }
+            break;
+        case "recommend_room":
+            tool.content= {
+          "Result": `为您推荐${Global_Info.room_name}会议室,该场馆当前容纳${Global_Info.room_total_people}。并且已经自动为您切换相机镜头到${Global_Info.room_name}会议室。`,
+          "Detail": {
+            "id": 52,
+            "unique_id": "LI_BJ_GH_HYS_223",
+            "name": Global_Info.room_name,
+            "floor": 4,
+            "capacity": 298,
+            "outline_coord": [
+              [
+                -678.470453,
+                10523.258743,
+                67.7
+              ],
+              [
+                -677.382109,
+                10493.718785,
+                67.7
+              ],
+              [
+                -650.730192,
+                10494.700725,
+                67.7
+              ],
+              [
+                -651.818535,
+                10524.240683,
+                67.7
+              ]
+            ],
+            "direction": "south",
+            "priority_level": 0,
+            "models": [
+              {
+                "seedId": "c8bb2055726f58b5093d686f419be324",
+                "area": "stage",
+                "entityName": "舞台8",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 1,
+                "controlMode": {
+                  "number": 1,
+                  "type": "people"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  0,
+                  0
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 0,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  8,
+                  3
+                ],
+                "modelTopBottomSpace": 0,
+                "topBorder": 1,
+                "seats": 1
+              },
+              {
+                "seedId": "f713de21c2c97796ea73b2f8ca467bf0",
+                "area": "svip",
+                "entityName": "贵宾沙发",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 21,
+                "controlMode": {
+                  "number": 4,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.05,
+                  0.9
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 10.5,
+                "seats": 1
+              },
+              {
+                "seedId": "dc64fe5da597eb79a6fe8301fb0d5c1b",
+                "area": "vip",
+                "entityName": "三人桌椅组合",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 12,
+                "controlMode": {
+                  "number": 4,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.81,
+                  1.28
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 17.5,
+                "seats": 3
+              },
+              {
+                "seedId": "2f58a25816455f2ace5ba594e51c2006",
+                "area": "general",
+                "entityName": "带套会议椅",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 18,
+                "controlMode": {
+                  "number": 2,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  0.56,
+                  0.53
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 26.02,
+                "seats": 1
+              }
+            ]
+          },
+          "CustomAPI": {
+            "apiClassName": "GuoHuiCameraRegister",
+            "apiFuncName": "GuoHuiCameraChangeRound",
+            "args": {
+              "floor": 4,
+              "round": [
+                [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                [
+                  -677.382109,
+                  10493.718785,
+                  67.7
+                ],
+                [
+                  -650.730192,
+                  10494.700725,
+                  67.7
+                ],
+                [
+                  -651.818535,
+                  10524.240683,
+                  67.7
+                ]
+              ]
+            }
+          }
+        }
+            break;
+        case "adjust_room_layout":
+            tool.content = {
+          "Result": `为您推荐${Global_Info.room_name}会议室,该场馆当前容纳${Global_Info.room_total_people}。并且已经自动为您切换相机镜头到${Global_Info.room_name}会议室。`,
+          "Detail": {
+            "id": 52,
+            "unique_id": "LI_BJ_GH_HYS_223",
+            "name": Global_Info.room_name,
+            "floor": 4,
+            "capacity": 298,
+            "outline_coord": [
+              [
+                -678.470453,
+                10523.258743,
+                67.7
+              ],
+              [
+                -677.382109,
+                10493.718785,
+                67.7
+              ],
+              [
+                -650.730192,
+                10494.700725,
+                67.7
+              ],
+              [
+                -651.818535,
+                10524.240683,
+                67.7
+              ]
+            ],
+            "direction": "south",
+            "priority_level": 0,
+            "models": [
+              {
+                "seedId": "c8bb2055726f58b5093d686f419be324",
+                "area": "stage",
+                "entityName": "舞台8",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 1,
+                "controlMode": {
+                  "number": 1,
+                  "type": "people"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  0,
+                  0
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 0,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  8,
+                  3
+                ],
+                "modelTopBottomSpace": 0,
+                "topBorder": 1,
+                "seats": 1
+              },
+              {
+                "seedId": "f713de21c2c97796ea73b2f8ca467bf0",
+                "area": "svip",
+                "entityName": "贵宾沙发",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 21,
+                "controlMode": {
+                  "number": 4,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.05,
+                  0.9
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 10.5,
+                "seats": 1
+              },
+              {
+                "seedId": "dc64fe5da597eb79a6fe8301fb0d5c1b",
+                "area": "vip",
+                "entityName": "三人桌椅组合",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 12,
+                "controlMode": {
+                  "number": 4,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.81,
+                  1.28
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 17.5,
+                "seats": 3
+              },
+              {
+                "seedId": "2f58a25816455f2ace5ba594e51c2006",
+                "area": "general",
+                "entityName": "带套会议椅",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 18,
+                "controlMode": {
+                  "number": 2,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  0.56,
+                  0.53
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 26.02,
+                "seats": 1
+              }
+            ]
+          },
+          "CustomAPI": {
+            "apiClassName": "GuoHuiCameraRegister",
+            "apiFuncName": "GuoHuiCameraChangeRound",
+            "args": {
+              "floor": 4,
+              "round": [
+                [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                [
+                  -677.382109,
+                  10493.718785,
+                  67.7
+                ],
+                [
+                  -650.730192,
+                  10494.700725,
+                  67.7
+                ],
+                [
+                  -651.818535,
+                  10524.240683,
+                  67.7
+                ]
+              ]
+            }
+          }
+        }
+            break;
+        case "query_room_layout":
+            tool.content = await {
+          "上下文id(conversation_id)": Global_Info.conversation_id,
+          "总人数(input_total_people)": Context.action.parameters.input_total_people,
+          "实际的房间总人数(actual_total_people)": Context.action.parameters.actual_total_people,
+          "排布类型(arrange_type)": "剧院式",
+          "房间名称(room_name)": Global_Info.room_name,
+          "svip区域配置(svip_area_info)": {
+            "area_name": "",
+            "row": Global_Info.Sviprow,
+            "seat_model": "贵宾沙发",
+            "model_left_right_space": 0
+          },
+          "vip区域配置(vip_area_info)": {
+            "area_name": "",
+            "row": Global_Info.Viprow,
+            "seat_model": "三人桌椅组合",
+            "model_left_right_space": 0
+          },
+          "普通区域配置(general_area_info)": {
+            "area_name": "",
+            "row": Global_Info.Generalrow,
+            "seat_model": "",
+            "model_left_right_space": 0
+          }
+        }
+      
+            break;
+        case "furniture_change":
+            tool.content = await {
+          "material": [
+            {
+              "color": Context.action.parameters.color,
+              "area": Context.action.parameters.area
+            }
+          ]
+        }
+            break;
+        case "show_viewshed":
+            tool.content = await  Context.action.parameters
+    }
+
+    return tool
+}
+
+
+async function Tool_flow1(Context) {
+    let conversation_history_user = {
+        "role": "user",
+        "content": Context.user_instruction
+    }
+    let conversation_history_assistant = {
+        "role": "assistant",
+        "action": Context.action
+    }
+
+    return [conversation_history_user, conversation_history_assistant]
+
+}
+
+
+async function Context(Context) {
+    // 参数验证和默认值
+
+    if (!Context || !Array.isArray(Context)) {
+        Context = [];
+    }
+
+    let conversation_history = [
+        {
+            "role": "system",
+            "content": `当前的conversation_id为${Global_Info.UUID}，请在后续的对话中保持使用该conversation_id。`
+        }
+    ]
+     
+    // 检查数组是否为空
+    if (Context.length === 0) {
+        return conversation_history;
+    }
+
+    for (let i = 0; i < Context.length; i++) {
+        let conversation_history_user = {
+            "role": "user",
+            "content": Context[i].user_instruction
+        }
+        let conversation_history_assistant = {
+            "role": "assistant",
+            "content": Context[i].content
+        }
+        conversation_history.push(conversation_history_user)
+        conversation_history.push(conversation_history_assistant)
+    }
+    for (let i = conversation_history.length - 1; i >= 0; i--) {
+    if (conversation_history[i].content===null||conversation_history[i].role==="tool") { // 删除奇数
+        conversation_history.splice(i, 1);
+    }
+    return conversation_history
+}
+}

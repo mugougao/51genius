@@ -1,0 +1,1600 @@
+[
+  {
+    "stage": "问候",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      }
+    ],
+    "user_instruction": "你好，智会精灵",
+    "thought": {
+      "routing_thought": "用户指令'你好，智会精灵'，匹配到'问候'意图。适合直接进行AI回复。"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "say_hi",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f"
+      }
+    }
+  },
+  {
+    "stage": "问候",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "say_hi",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f"
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+        }
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+    }
+  },
+  {
+    "stage": "查看房间",
+    "user_instruction": "带我看看2层211会议室",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      }
+    ],
+    "thought": {
+      "routing_thought": "用户指令'带我看看2层211会议室'，直接匹配到'查看会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应\"camera_look_down\"工具，该工具的输入'room_name'字段，值为房间、楼层名称,指令中提到2层211会议室，可知'2层211会议室'中的'2'为2层,2层211会议室即'2层2层211会议室'，可以明确提取'room_name='2层2层211会议室'"
+    },
+    "content": "已为您展示2层211会议室",
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "camera_look_down",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "room_name": "2层211会议室"
+      }
+    }
+  },
+  {
+    "stage": "查看房间",
+    "user_instruction": null,
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "camera_look_down",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "room_name": "2层211会议室"
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "已经为您跳转到2层211会议室"
+        },
+        "CustomAPI": {
+          "apiClassName": "GuoHuiCameraRegister",
+          "apiFuncName": "GuoHuiCameraChangeRound",
+          "args": {
+            "floor": 4,
+            "round": [
+              [
+                -655.593244,
+                10634.255121,
+                67.735597
+              ],
+              [
+                -655.190822,
+                10623.332531,
+                67.735597
+              ],
+              [
+                -638.841915,
+                10623.934876,
+                67.735597
+              ],
+              [
+                -639.244337,
+                10634.857465,
+                67.735597
+              ]
+            ]
+          }
+        },
+        "'ClearArrangement'": true
+      }
+    ],
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "content": "已为您展示2层211会议室",
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "已经为您跳转到2层211会议室"
+    }
+  },
+  {
+    "stage": "选房间",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      }
+    ],
+    "user_instruction": "250人，有什么房间推荐",
+    "thought": {
+      "routing_thought": "用户指令‘推荐会议厅’,并且提供了会议人数，匹配到'推荐会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'recommend_room'工具，该工具的输入包括'input_total_people'，从指令中可以明确提取如下参数：'input_total_people=250'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "recommend_room",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "input_total_people": 250
+      }
+    }
+  },
+  {
+    "stage": "选房间",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "recommend_room",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "input_total_people": 250
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室",
+          "Detail": {
+            "id": 52,
+            "unique_id": "LI_BJ_GH_HYS_223",
+            "name": "2层245会议室",
+            "floor": 4,
+            "capacity": 298,
+            "outline_coord": [
+              [
+                -678.470453,
+                10523.258743,
+                67.7
+              ],
+              [
+                -677.382109,
+                10493.718785,
+                67.7
+              ],
+              [
+                -650.730192,
+                10494.700725,
+                67.7
+              ],
+              [
+                -651.818535,
+                10524.240683,
+                67.7
+              ]
+            ],
+            "direction": "south",
+            "priority_level": 0,
+            "models": [
+              {
+                "seedId": "c8bb2055726f58b5093d686f419be324",
+                "area": "stage",
+                "entityName": "舞台8",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 1,
+                "controlMode": {
+                  "number": 1,
+                  "type": "people"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  0,
+                  0
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 0,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  8,
+                  3
+                ],
+                "modelTopBottomSpace": 0,
+                "topBorder": 1,
+                "seats": 1
+              },
+              {
+                "seedId": "f713de21c2c97796ea73b2f8ca467bf0",
+                "area": "svip",
+                "entityName": "贵宾沙发",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 21,
+                "controlMode": {
+                  "number": 4,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.05,
+                  0.9
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 10.5,
+                "seats": 1
+              },
+              {
+                "seedId": "dc64fe5da597eb79a6fe8301fb0d5c1b",
+                "area": "vip",
+                "entityName": "三人桌椅组合",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 12,
+                "controlMode": {
+                  "number": 4,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.81,
+                  1.28
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 17.5,
+                "seats": 3
+              },
+              {
+                "seedId": "2f58a25816455f2ace5ba594e51c2006",
+                "area": "general",
+                "entityName": "带套会议椅",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 18,
+                "controlMode": {
+                  "number": 2,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  0.56,
+                  0.53
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 26.02,
+                "seats": 1
+              }
+            ]
+          },
+          "CustomAPI": {
+            "apiClassName": "GuoHuiCameraRegister",
+            "apiFuncName": "GuoHuiCameraChangeRound",
+            "args": {
+              "floor": 4,
+              "round": [
+                [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                [
+                  -677.382109,
+                  10493.718785,
+                  67.7
+                ],
+                [
+                  -650.730192,
+                  10494.700725,
+                  67.7
+                ],
+                [
+                  -651.818535,
+                  10524.240683,
+                  67.7
+                ]
+              ]
+            }
+          }
+        },
+        "'ClearArrangement'": true
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+    }
+  },
+  {
+    "stage": "排桌",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      }
+    ],
+    "user_instruction": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。",
+    "thought": {
+      "routing_thought": "用户指令'2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅',提到了座椅排布的相关信息,匹配到'查看会议厅'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'adjust_room_layout'工具，该工具的输入包括'input_total_people','conversation_id','arrange_type','room_name','svip_area_info','vip_area_info','general_area_info'，从指令中可以明确提取如下参数：'input_total_people=600','room_name=2层252会议室','svip_area_info.row=3','vip_area_info.row=4',用户未指定排布方式座椅模型类型，默认选取剧院式,贵宾沙发，休闲沙发和普通座椅'arrange_type=剧院式','svip_area_info.seat_model=贵宾沙发','vip_area_info.seat_model=休闲沙发','general_area_info.seat_model=普通座椅'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "adjust_room_layout",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "input_total_people": "600",
+        "arrange_type": "剧院式",
+        "room_name": "2层252会议室",
+        "svip_area_info": {
+          "row": "3",
+          "seat_model": "贵宾沙发"
+        },
+        "vip_area_info": {
+          "row": "4",
+          "seat_model": "休闲沙发"
+        },
+        "general_area_info": {
+          "seat_model": "普通座椅"
+        }
+      }
+    }
+  },
+  {
+    "stage": "排桌",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "adjust_room_layout",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "input_total_people": "600",
+            "arrange_type": "剧院式",
+            "room_name": "2层252会议室",
+            "svip_area_info": {
+              "row": "3",
+              "seat_model": "贵宾沙发"
+            },
+            "vip_area_info": {
+              "row": "4",
+              "seat_model": "休闲沙发"
+            },
+            "general_area_info": {
+              "seat_model": "普通座椅"
+            }
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "已经按您的要求完成排布，当前排布方案可容纳720人",
+          "Detail": {
+            "id": 52,
+            "unique_id": "LI_BJ_GH_HYS_223",
+            "name": "2层252会议室",
+            "floor": 4,
+            "capacity": 720,
+            "outline_coord": [
+              [
+                -678.470453,
+                10523.258743,
+                67.7
+              ],
+              [
+                -677.382109,
+                10493.718785,
+                67.7
+              ],
+              [
+                -650.730192,
+                10494.700725,
+                67.7
+              ],
+              [
+                -651.818535,
+                10524.240683,
+                67.7
+              ]
+            ],
+            "direction": "south",
+            "priority_level": 0,
+            "models": [
+              {
+                "seedId": "c8bb2055726f58b5093d686f419be324",
+                "area": "stage",
+                "entityName": "舞台8",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 1,
+                "controlMode": {
+                  "number": 1,
+                  "type": "people"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  0,
+                  0
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 0,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  8,
+                  3
+                ],
+                "modelTopBottomSpace": 0,
+                "topBorder": 1,
+                "seats": 1
+              },
+              {
+                "seedId": "f713de21c2c97796ea73b2f8ca467bf0",
+                "area": "svip",
+                "entityName": "贵宾沙发",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 21,
+                "controlMode": {
+                  "number": "3",
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.05,
+                  0.9
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 10.5,
+                "seats": 1
+              },
+              {
+                "seedId": "dc64fe5da597eb79a6fe8301fb0d5c1b",
+                "area": "vip",
+                "entityName": "三人桌椅组合",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 12,
+                "controlMode": {
+                  "number": "4",
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  1.81,
+                  1.28
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 17.5,
+                "seats": 3
+              },
+              {
+                "seedId": "2f58a25816455f2ace5ba594e51c2006",
+                "area": "general",
+                "entityName": "带套会议椅",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 18,
+                "controlMode": {
+                  "number": 6,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0.044,
+                "modelSize": [
+                  0.56,
+                  0.53
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 26.02,
+                "seats": 1
+              }
+            ]
+          },
+          "CustomAPI": {
+            "apiClassName": "GuoHuiCameraRegister",
+            "apiFuncName": "GuoHuiCameraChangeRound",
+            "args": {
+              "floor": 4,
+              "round": [
+                [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                [
+                  -677.382109,
+                  10493.718785,
+                  67.7
+                ],
+                [
+                  -650.730192,
+                  10494.700725,
+                  67.7
+                ],
+                [
+                  -651.818535,
+                  10524.240683,
+                  67.7
+                ]
+              ]
+            }
+          }
+        },
+        "ClearArrangement": true
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "已经按您的要求完成排布，当前排布方案可容纳720人"
+    }
+  },
+  {
+    "stage": "调整排桌方案",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      }
+    ],
+    "user_instruction": "将SVIP区前后间距调整到2.2m",
+    "thought": {
+      "routing_thought": "用户指令'将SVIP区前后间距调整到2.2m'，我需要先了解当前的排布参数，所以需要先调用'query_room_layout'工具，获取当前排布方案中的前后排间距、左右间距以及过道数量等参数。",
+      "action_thought": "该意图对应\"query_room_layout\"工具，该工具的输入包括房间名称参数\"room_name\"和conversation_id,在上文的记载中，可知，当前的房间名称为2层252会议室，所以可以明确提取'room_name=2层252会议室'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "query_room_layout",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "room_name": "2层252会议室"
+      }
+    }
+  },
+  {
+    "stage": "调整排桌方案",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "将SVIP区前后间距调整到2.2m"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "query_room_layout",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "room_name": "2层252会议室"
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "总人数(input_total_people)": "600",
+          "实际的房间总人数(actual_total_people)": 720,
+          "排布类型(arrange_type)": "剧院式",
+          "房间名称(room_name)": "2层252会议室",
+          "svip区域配置(svip_area_info)": {
+            "area_name": "",
+            "row": 4,
+            "seat_model": "贵宾沙发",
+            "model_left_right_space": 0.044,
+            "modelTopBottomSpace": 0.6
+          },
+          "vip区域配置(vip_area_info)": {
+            "area_name": "",
+            "row": 4,
+            "seat_model": "三人桌椅组合",
+            "model_left_right_space": 0.044,
+            "modelTopBottomSpace": 0.6
+          },
+          "普通区域配置(general_area_info)": {
+            "area_name": "",
+            "row": 2,
+            "seat_model": "带套会议椅",
+            "model_left_right_space": 0.044,
+            "modelTopBottomSpace": 0.6
+          }
+        },
+        "ClearArrangement": true
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的内容，进一步分析需要调整的参数",
+      "action_thought": "用户提到了将SVIP区前后间距，需要将其调整为调整到2.2m。SVIP区对应的参数是svip_area_info前后间距对应的参为modelTopBottomSpace按照undefined的要求调整其参数"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "adjust_room_layout",
+      "parameters": {
+        "arrange_type": "宴会式",
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "general_area_info": {
+          "modelTopBottomSpace": 0.6,
+          "seat_model": ""
+        },
+        "input_total_people": 200,
+        "room_name": "1号展览厅",
+        "svip_area_info": {
+          "model_left_right_space": 0,
+          "seat_model": "贵宾沙发",
+          "modelTopBottomSpace": "2.2"
+        },
+        "vip_area_info": {
+          "model_left_right_space": 0,
+          "seat_model": "双人沙发",
+          "modelTopBottomSpace": 0.6
+        }
+      }
+    }
+  },
+  {
+    "stage": "调整排桌方案",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "将SVIP区前后间距调整到2.2m"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "query_room_layout",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "room_name": "2层252会议室"
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "总人数(input_total_people)": "600",
+          "实际的房间总人数(actual_total_people)": 720,
+          "排布类型(arrange_type)": "剧院式",
+          "房间名称(room_name)": "2层252会议室",
+          "svip区域配置(svip_area_info)": {
+            "area_name": "",
+            "row": 4,
+            "seat_model": "贵宾沙发",
+            "model_left_right_space": 0.044,
+            "modelTopBottomSpace": 0.6
+          },
+          "vip区域配置(vip_area_info)": {
+            "area_name": "",
+            "row": 4,
+            "seat_model": "三人桌椅组合",
+            "model_left_right_space": 0.044,
+            "modelTopBottomSpace": 0.6
+          },
+          "普通区域配置(general_area_info)": {
+            "area_name": "",
+            "row": 2,
+            "seat_model": "带套会议椅",
+            "model_left_right_space": 0.044,
+            "modelTopBottomSpace": 0.6
+          }
+        },
+        "ClearArrangement": true
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "adjust_room_layout",
+          "parameters": {
+            "arrange_type": "宴会式",
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "general_area_info": {
+              "modelTopBottomSpace": 0.6,
+              "seat_model": ""
+            },
+            "input_total_people": 200,
+            "room_name": "1号展览厅",
+            "svip_area_info": {
+              "model_left_right_space": 0,
+              "seat_model": "贵宾沙发",
+              "modelTopBottomSpace": "2.2"
+            },
+            "vip_area_info": {
+              "model_left_right_space": 0,
+              "seat_model": "双人沙发",
+              "modelTopBottomSpace": 0.6
+            }
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "已经按您的要求更新排布，当前排布方案可容纳720人",
+          "Detail": {
+            "id": 52,
+            "unique_id": "LI_BJ_GH_HYS_223",
+            "name": "2层252会议室",
+            "floor": 4,
+            "capacity": 720,
+            "outline_coord": [
+              [
+                -678.470453,
+                10523.258743,
+                67.7
+              ],
+              [
+                -677.382109,
+                10493.718785,
+                67.7
+              ],
+              [
+                -650.730192,
+                10494.700725,
+                67.7
+              ],
+              [
+                -651.818535,
+                10524.240683,
+                67.7
+              ]
+            ],
+            "direction": "south",
+            "priority_level": 0,
+            "models": [
+              {
+                "seedId": "c8bb2055726f58b5093d686f419be324",
+                "area": "stage",
+                "entityName": "舞台8",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 1,
+                "controlMode": {
+                  "number": 1,
+                  "type": "people"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  0,
+                  0
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 0,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  8,
+                  3
+                ],
+                "modelTopBottomSpace": 0,
+                "topBorder": 1,
+                "seats": 1
+              },
+              {
+                "seedId": "f713de21c2c97796ea73b2f8ca467bf0",
+                "area": "svip",
+                "entityName": "贵宾沙发",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 21,
+                "controlMode": {
+                  "number": "3",
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  1.05,
+                  0.9
+                ],
+                "modelTopBottomSpace": "2.2",
+                "topBorder": 10.5,
+                "seats": 1
+              },
+              {
+                "seedId": "dc64fe5da597eb79a6fe8301fb0d5c1b",
+                "area": "vip",
+                "entityName": "三人桌椅组合",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 12,
+                "controlMode": {
+                  "number": "4",
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelLeftRightSpace": 0,
+                "modelSize": [
+                  1.81,
+                  1.28
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 17.5,
+                "seats": 3
+              },
+              {
+                "seedId": "2f58a25816455f2ace5ba594e51c2006",
+                "area": "general",
+                "entityName": "带套会议椅",
+                "areaAngle": -2.11,
+                "areaWidthLength": [
+                  26.67,
+                  29.56
+                ],
+                "continuousNumber": 18,
+                "controlMode": {
+                  "number": 6,
+                  "type": "row"
+                },
+                "direction": "south",
+                "leftRightBorder": [
+                  1.5,
+                  1.5
+                ],
+                "leftTopLocation": [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                "miniAisleWidth": 2,
+                "modelSize": [
+                  0.56,
+                  0.53
+                ],
+                "modelTopBottomSpace": 0.6,
+                "topBorder": 26.02,
+                "seats": 1
+              }
+            ]
+          },
+          "CustomAPI": {
+            "apiClassName": "GuoHuiCameraRegister",
+            "apiFuncName": "GuoHuiCameraChangeRound",
+            "args": {
+              "floor": 4,
+              "round": [
+                [
+                  -678.470453,
+                  10523.258743,
+                  67.7
+                ],
+                [
+                  -677.382109,
+                  10493.718785,
+                  67.7
+                ],
+                [
+                  -650.730192,
+                  10494.700725,
+                  67.7
+                ],
+                [
+                  -651.818535,
+                  10524.240683,
+                  67.7
+                ]
+              ]
+            }
+          }
+        },
+        "ClearArrangement": true
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "已经按您的要求完成排布方案调整，当前排布方案可容纳720人"
+    }
+  },
+  {
+    "stage": "替换颜色",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "将SVIP区前后间距调整到2.2m"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布方案调整，当前排布方案可容纳720人"
+      }
+    ],
+    "user_instruction": "所有椅子换成半透明。",
+    "thought": {
+      "routing_thought": "用户指令所有椅子换成半透明。匹配到'替换模型颜色'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'furniture_change'工具，该工具的输入包括area,表示区域，color,表示颜色。所以参数为'{\"area\":\"all\",\"color\":\"半透明\"}'"
+    },
+    "content": "已为您将所有的颜色替换为半透明",
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "furniture_change",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "area": "all",
+        "color": "半透明"
+      }
+    }
+  },
+  {
+    "stage": "替换颜色",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "将SVIP区前后间距调整到2.2m"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布方案调整，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "所有椅子换成半透明。"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "furniture_change",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "area": "all",
+            "color": "半透明"
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "已经将颜色替换为半透明"
+        },
+        "'ClearArrangement'": true
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "content": "已为您将所有的颜色替换为半透明",
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "已经将颜色替换为半透明"
+    }
+  },
+  {
+    "stage": "视角模拟",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "将SVIP区前后间距调整到2.2m"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布方案调整，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "所有椅子换成半透明。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经将颜色替换为半透明"
+      }
+    ],
+    "user_instruction": "模拟第一排第一个的可视域效果。",
+    "thought": {
+      "routing_thought": "用户指令'模拟第一排第一个的可视域效果。',匹配到'可视域'意图。适合直接进行工具调用。",
+      "action_thought": "该意图对应'layout_show_viewshed'工具，该工具的输入包括x代表座位排号码第一排对应为1，y代表座位号码第一个对应为1，visible代表是否可见,此处希望打开可视域，为true。所以参数为'{\"x\":1,\"y\":1,visible:'true'}}'"
+    },
+    "action": {
+      "action_type": "TOOL_CALL",
+      "tool_name": "layout_show_viewshed",
+      "parameters": {
+        "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+        "x": 1,
+        "y": 1,
+        "visible": true
+      }
+    }
+  },
+  {
+    "stage": "视角模拟",
+    "conversation_history": [
+      {
+        "role": "system",
+        "content": "当前的conversation_id为e673f380-c5b0-11f0-b1c2-1d8ae35ba64f，请在后续的对话中保持使用该conversation_id。"
+      },
+      {
+        "role": "user",
+        "content": "你好，智会精灵"
+      },
+      {
+        "role": "assistant",
+        "content": "您好，欢迎进入会展中心，我是智会精灵。我可以为您进行场景导览、空间排布、路径规划。请问您有什么需求？"
+      },
+      {
+        "role": "user",
+        "content": "带我看看2层211会议室"
+      },
+      {
+        "role": "assistant",
+        "content": "已经为您跳转到2层211会议室"
+      },
+      {
+        "role": "user",
+        "content": "250人，有什么房间推荐"
+      },
+      {
+        "role": "assistant",
+        "content": "为您推荐2层245会议室会议室,该场馆当前容纳324人。已经将镜头跳转至该会议室"
+      },
+      {
+        "role": "user",
+        "content": "我安排2层252会议室召开一个会议，600人，前面3排svip，中间4排vip，其余为普通座椅。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "将SVIP区前后间距调整到2.2m"
+      },
+      {
+        "role": "assistant",
+        "content": "已经按您的要求完成排布方案调整，当前排布方案可容纳720人"
+      },
+      {
+        "role": "user",
+        "content": "所有椅子换成半透明。"
+      },
+      {
+        "role": "assistant",
+        "content": "已经将颜色替换为半透明"
+      },
+      {
+        "role": "user",
+        "content": "模拟第一排第一个的可视域效果。"
+      },
+      {
+        "role": "assistant",
+        "action": {
+          "action_type": "TOOL_CALL",
+          "tool_name": "layout_show_viewshed",
+          "parameters": {
+            "conversation_id": "e673f380-c5b0-11f0-b1c2-1d8ae35ba64f",
+            "x": 1,
+            "y": 1,
+            "visible": true
+          }
+        }
+      },
+      {
+        "role": "tool",
+        "content": {
+          "Result": "已经为您显示该座位上的可视域效果"
+        },
+        "'ClearArrangement'": true
+      }
+    ],
+    "user_instruction": null,
+    "thought": {
+      "routing_thought": "已经成功调用工具获得了回复，接下来需要解析工具返回的结构化数据，将回复返回给用户。",
+      "action_thought": "现在需要将工具返回的结构化数据解析为用户可理解的文本格式。从给定的工具response结果中识别出包含有用信息的字段，文本内容为content字段中的result字段的内容。"
+    },
+    "action": {
+      "action_type": "DIRECT_ANSWER",
+      "final_answer": "已经为您显示该座位上的可视域效果"
+    }
+  }
+]
