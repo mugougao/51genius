@@ -1,0 +1,649 @@
+[
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "展示启动仪式效果",
+            "thought": {
+                "routing_thought": "用户指令是'展示启动仪式效果'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到展示开幕式效果，所以参数应该为inauguration=true"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": true
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "展示启动仪式效果"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": true
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": true
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经展示开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "请欣赏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "打开启动仪式效果",
+            "thought": {
+                "routing_thought": "用户指令'打开启动仪式效果'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到打开启动仪式效果，所以参数应该为inauguration=true"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": true
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "打开启动仪式效果"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": true
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": true
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经打开启动仪式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "请欣赏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "启动开场环节",
+            "thought": {
+                "routing_thought": "用户指令'启动开场环节'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到展示开幕式效果，所以参数应该为inauguration=true"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": true
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "启动开场环节"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": true
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": true
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经展示开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "请欣赏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "进入大会开场流程",
+            "thought": {
+                "routing_thought": "用户指令'进入大会开场流程'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到展示开幕式效果，所以参数应该为inauguration=true"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": true
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "进入大会开场流程"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": true
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": true
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经展示开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "请欣赏开幕式效果"
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "隐藏大会开场效果",
+            "thought": {
+                "routing_thought": "用户指令'隐藏大会开场效果'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到隐藏大会开场效果，所以参数应该为inauguration=false"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": false
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "隐藏大会开场效果"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": false
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": false
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经隐藏开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经隐藏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "关闭启动仪式环节",
+            "thought": {
+                "routing_thought": "用户指令'关闭启动仪式环节'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到隐藏开幕式效果，所以参数应该为inauguration=false"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": false
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "关闭启动仪式环节"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": false
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": false
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经隐藏开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经隐藏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "结束启动仪式环节展示",
+            "thought": {
+                "routing_thought": "用户指令'结束启动仪式环节展示'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到隐藏开幕式效果，所以参数应该为inauguration=false"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": false
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "结束启动仪式环节展示"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": false
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": false
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经隐藏开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经隐藏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "退出启动仪式环节展示",
+            "thought": {
+                "routing_thought": "用户指令'退出启动仪式环节展示'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到隐藏开幕式效果，所以参数应该为inauguration=false"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": false
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "退出启动仪式环节展示"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": false
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": false
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经隐藏开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经隐藏开幕式效果"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "跳过启动仪式环节",
+            "thought": {
+                "routing_thought": "用户指令'跳过启动仪式环节'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到隐藏开幕式效果，所以参数应该为inauguration=false"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": false
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "跳过启动仪式环节"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": false
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": false
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经隐藏开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经隐藏开幕式效果"
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "暂停大会开场效果",
+            "thought": {
+                "routing_thought": "用户指令'暂停大会开场效果'，直接匹配到'开幕式'意图。适合直接进行工具调用。",
+                "action_thought": "开幕式意图对应inauguration工具，用户提到隐藏开幕式效果，所以参数应该为inauguration=false"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_opening_ceremony",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "inauguration": false
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "开幕式",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "暂停大会开场效果"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_opening_ceremony",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "inauguration": false
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "inauguration": false
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户观看效果",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经隐藏开幕式效果"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经隐藏开幕式效果"
+            }
+        }
+    ]

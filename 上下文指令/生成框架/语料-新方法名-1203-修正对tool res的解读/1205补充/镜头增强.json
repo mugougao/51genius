@@ -1,0 +1,2342 @@
+[
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看第二排第4个座位的视角",
+        "thought": {
+            "routing_thought": "用户指令'看看第二排第4个座位的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，第二排第4个座位的行号为2，列号为4，调用该工具即可将视角切换到第二排第4个座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 2,
+                "y": 4
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看第二排第4个座位的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 2,
+                        "y": 4
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看最后一排第最右侧座位的视角",
+        "thought": {
+            "routing_thought": "用户指令'看看最后一排最右侧座位的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，行号倒数时为负数，最后一排的行号为-1，列号倒数时为负数，最右侧座位列号为-1，调用该工具即可将视角切换到最后一排最右侧座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -1,
+                "y": -1
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看第二排第4个座位的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -1,
+                        "y": -1
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -1,
+                        -1
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看最后一排第最左侧座位的视角",
+        "thought": {
+            "routing_thought": "用户指令'看看最后一排第最左侧座位的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，行号倒数时为负数，最后一排的行号为-1，最左侧座位列号为1，调用该工具即可将视角切换到最后一排最左侧座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -1,
+                "y": 1
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看最后一排第最左侧座位的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -1,
+                        "y": 1
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -1,
+                        1
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看倒数第2排第中间的视角",
+        "thought": {
+            "routing_thought": "用户指令'看看倒数第2排第中间的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，行号倒数时为负数，倒数第2排的行号为-2，中间座位列号为0.5，调用该工具即可将视角切换到倒数第2排中间座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -2,
+                "y": 0.5
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看倒数第2排第中间的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -2,
+                        "y": 0.5
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -2,
+                        0.5
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "最后一排最右侧观看舞台的视角怎么样",
+        "thought": {
+            "routing_thought": "用户指令'最后一排最右侧观看舞台的视角怎么样'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，行号倒数时为负数，最后一排的行号为-1，最右侧座位列号为-1，调用该工具即可将视角切换到最后一排最右侧座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -1,
+                "y": -1
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "最后一排最右侧观看舞台的视角怎么样"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -1,
+                        "y": -1
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -1,
+                        -1
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "让我体验一下第二排中间座位的视角",
+        "thought": {
+            "routing_thought": "用户指令'让我体验一下第二排中间座位的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，第二排的行号为2，中间座位列号为0.5，调用该工具即可将视角切换到第二排中间座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 2,
+                "y": 0.5
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "让我体验一下第二排中间座位的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 2,
+                        "y": 0.5
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        2,
+                        0.5
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "验证下第二排第三个座位的视角是否正确",
+        "thought": {
+            "routing_thought": "用户指令'验证下第二排第三个座位的视角是否正确'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，第二排的行号为2，第三个座位列号为3，调用该工具即可将视角切换到第二排第三个座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 2,
+                "y": 3
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "验证下第二排第三个座位的视角是否正确"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 2,
+                        "y": 3
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        2,
+                        3
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看一下最后面中间的座位视角",
+        "thought": {
+            "routing_thought": "用户指令'看一下最后面中间的座位视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，行号倒数时为负数，最后面一排的行号是-1，中间座位的列号为0.5，调用该工具即可将视角切换到最后面中间的座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -1,
+                "y": 0.5
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "验证下第二排第三个座位的视角是否正确"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -1,
+                        "y": 0.5
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -1,
+                        0.5
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看一下倒数第三排右数第二个座位的视角",
+        "thought": {
+            "routing_thought": "用户指令'看一下倒数第三排右数第二个座位的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，倒数第三排的行号是-2，右数第二个座位的列号为-2，调用该工具即可将视角切换到倒数第三排右数第二个座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -3,
+                "y": -2
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "验证下第二排第三个座位的视角是否正确"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -3,
+                        "y": 2
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -3,
+                        2
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看一下倒数第二排右数第二个座位的视角",
+        "thought": {
+            "routing_thought": "用户指令'看一下倒数第二排右数第二个座位的视角'，直接匹配到'视角模拟'意图。适合直接进行工具调用。",
+            "action_thought": "视角模拟意图对应view_set_to_seat工具的输入包括x和y，分别对应座位的行号和列号，行号倒数时为负数，倒数第三排的行号是-2，列号右数时为负数，右数第二个座位的列号为-2，调用该工具即可将视角切换到倒数第二排右数第二个座位。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_seat",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -2,
+                "y": -2
+            }
+        }
+    },
+    {
+        "module_category": "视角模拟",
+        "semantics_category": "视角模拟",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "验证下第二排第三个座位的视角是否正确"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_seat",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -2,
+                        "y": 2
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "setCameraToSeat": [
+                        -2,
+                        2
+                    ]
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角切换"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "画面放大一点",
+        "thought": {
+            "routing_thought": "用户指令'画面放大一点'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户希望画面放大，说明希望镜头下降，参数应该为负数，用户未指定下降距离，默认距离为1，所以step为-1，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-1"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "画面放大一点"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-1"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -1
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "再放大一点",
+        "thought": {
+            "routing_thought": "用户指令'再放大一点'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户希望画面放大，说明希望镜头下降，参数应该为负数，用户未指定下降距离，默认距离为1，所以step为-1，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-1"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "再放大一点"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-1"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -1
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "拉进点看看",
+        "thought": {
+            "routing_thought": "用户指令'拉进点看看'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户镜头拉近，说明希望镜头下降，参数应该为负数，用户未指定下降距离，默认距离为1，所以step为-1，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-1"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "拉进点看看"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-1"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -1
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "把镜头拉远",
+        "thought": {
+            "routing_thought": "用户指令'把镜头拉远'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户镜头拉远，说明希望镜头抬升，参数应该为正数，用户未指定下降距离，默认距离为1，所以step为1，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "1"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "把镜头拉远"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "1"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": 1
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头拉高23米",
+        "thought": {
+            "routing_thought": "用户指令'镜头拉高23米'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户镜头拉高23米，说明希望镜头抬升，参数应该为正数，所以step为23，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "23"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头拉高23米"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "23"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": 23
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "摄像机高度往下73米。",
+        "thought": {
+            "routing_thought": "用户指令'摄像机高度往下73米。'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'摄像机高度往下73米。'，说明希望镜头下降，参数应该为负数，所以step为-73，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-73"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "摄像机高度往下73米。"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-73"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -73
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "摄像机高度再下降10米。",
+        "thought": {
+            "routing_thought": "用户指令'摄像机高度再下降10米。'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'摄像机高度再下降10米。'，说明希望镜头下降，参数应该为负数，所以step为-10，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-10"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "摄像机高度再下降10米。"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-10"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -10
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头拉近20米",
+        "thought": {
+            "routing_thought": "用户指令'镜头拉近20米'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'镜头拉近20米'，说明希望镜头拉近，参数应该为负数，所以step为-20，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-20"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头拉近20米"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-20"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -20
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头抬高点，让视野范围扩大些",
+        "thought": {
+            "routing_thought": "用户指令'镜头抬高点，让视野范围扩大些'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'镜头抬高点，让视野范围扩大些'，说明希望镜头抬升，参数应该为正数，用户未指定具体高度，所以step为 1，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "1"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头抬高点，让视野范围扩大些"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "1"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": 1
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头升高30米",
+        "thought": {
+            "routing_thought": "用户指令'镜头抬高点，让视野范围扩大些'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'镜头升高30米'，说明希望镜头抬升，参数应该为正数，所以step为30，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "30"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头抬高点，让视野范围扩大些"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "30"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": 30
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头升高30米",
+        "thought": {
+            "routing_thought": "用户指令'镜头抬高点，让视野范围扩大些'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'镜头升高30米'，说明希望镜头抬升，参数应该为正数，所以step为30，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "30"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头抬高点，让视野范围扩大些"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "30"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": 30
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头升高40米",
+        "thought": {
+            "routing_thought": "用户指令'镜头抬高点，让视野范围扩大些'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'镜头升高40米'，说明希望镜头抬升，参数应该为正数，所以step为40，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "40"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头抬高点，让视野范围扩大些"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "40"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": 40
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "镜头下降40米",
+        "thought": {
+            "routing_thought": "用户指令'镜头抬高点，让视野范围扩大些'，直接匹配到'镜头控制'意图。适合直接进行工具调用。",
+            "action_thought": "镜头控制意图对应view_zoom_camera工具的输入包括step，step为正数时表示镜头抬升，为负数时时表示镜头下降，用户指令'镜头下降40米'，说明希望镜头下降，参数应该为负数，所以step为-40，调用该工具即可实现镜头控制。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_zoom_camera",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "step": "-40"
+            }
+        }
+    },
+    {
+        "module_category": "镜头控制",
+        "semantics_category": "镜头控制",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "镜头抬高点，让视野范围扩大些"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_zoom_camera",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "step": "-40"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraZoom",
+                        "args": {
+                            "step": -40
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您完成视角调整"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看第二排第4个座位的视野范围有多大",
+        "thought": {
+            "routing_thought": "用户指令'看看第二排第4个座位的视野范围有多大'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，分别对应座位的行号和列号以及显隐状态，第二排第4个座位的行号为2，列号为4，用户希望查看视野范围，所以显隐状态为true，所以x为2，y为4，visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 2,
+                "y": 4,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看第二排第4个座位的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 2,
+                        "y": 4,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            2,
+                            4
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您打开可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看倒数第二排第4个座位的视野范围有多大",
+        "thought": {
+            "routing_thought": "用户指令'看看第二排第4个座位的视野范围有多大'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，分别对应座位的行号和列号以及显隐状态，行号倒数为负数所以为-2，列号为4，用户希望查看视野范围，所以显隐状态为true，所以x为-2，y为4，visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -2,
+                "y": 4,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看第二排第4个座位的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -2,
+                        "y": 4,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            -2,
+                            4
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您打开可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "打开倒数第二排中间座位的可视域效果",
+        "thought": {
+            "routing_thought": "用户指令'打开倒数第二排中间座位的可视域效果'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，分别对应座位的行号和列号以及显隐状态，行号倒数为负数所以为-2，中间座位的列号为0.5，用户希望查看视野范围，所以显隐状态为true，所以x为-2，y为4，visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -2,
+                "y": 0.5,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "打开倒数第二排中间座位的可视域效果"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -2,
+                        "y": 0.5,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            -2,
+                            0.5
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经为您打开可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "好了隐藏可视域",
+        "thought": {
+            "routing_thought": "用户指令'好了隐藏可视域'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，用户希望隐藏可视域，所以visible为false。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -2,
+                "y": 0.5,
+                "visible": false
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "好了隐藏可视域"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -2,
+                        "y": 0.5,
+                        "visible": false
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            -2,
+                            0.5
+                        ],
+                        "isViewshed": false
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "隐藏可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "显示第2排右数第2个座位的可视域",
+        "thought": {
+            "routing_thought": "用户指令'显示第2排右数第2个座位的可视域'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，第二排所以x为2，右数，所以y为负数，y为-4，用户希望显示可视域，所以visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 2,
+                "y": -4,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "显示第2排右数第2个座位的可视域"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 2,
+                        "y": -4,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            -2,
+                            -4
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经显示可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "显示第6排左数第一个座位的可视域",
+        "thought": {
+            "routing_thought": "用户指令'显示第6排左数第一个座位的可视域'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，第六排所以x为6，左数，所以y为正数，y为1，用户希望显示可视域，所以visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 6,
+                "y": 1,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "显示第6排左数第一个座位的可视域"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 6,
+                        "y": 1,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            6,
+                            1
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经显示可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "显示第6排左数第一个座位的可视范围",
+        "thought": {
+            "routing_thought": "用户指令'显示第6排左数第一个座位的可视范围'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，第六排所以x为6，左数，所以y为正数，y为1，用户希望显示可视域，所以visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 6,
+                "y": 1,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "显示第6排左数第一个座位的可视范围"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 6,
+                        "y": 1,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            6,
+                            1
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经显示可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "显示第2排左数第一个座位的可视范围",
+        "thought": {
+            "routing_thought": "用户指令'显示第2排左数第一个座位的可视范围'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，第六排所以x为6，左数，所以y为正数，y为2，用户希望显示可视域，所以visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": 2,
+                "y": 1,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "显示第6排左数第一个座位的可视范围"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": 2,
+                        "y": 1,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            2,
+                            1
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经显示可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看最后一排最右侧的座位能否看到舞台",
+        "thought": {
+            "routing_thought": "用户指令'看看最后一排最右侧的座位能否看到舞台'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，排数倒数时为负数，所以x为-1，座位右数是为负数y为-1，用户希望显示可视域，所以visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -1,
+                "y": -1,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看最后一排最右侧的座位能否看到舞台"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -1,
+                        "y": -1,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            -1,
+                            -1
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经显示可视域"
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看最后一排最中间的座位能否看到舞台",
+        "thought": {
+            "routing_thought": "用户指令'看看最后一排最中间的座位能否看到舞台'，直接匹配到'可视域'意图。适合直接进行工具调用。",
+            "action_thought": "可视域意图对应overlay_toggle_viewshed工具的输入包括x和y以及visble，排数倒数时为负数，所以x为-1，中间座位为0.5，用户希望显示可视域，所以visible为true。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "overlay_toggle_viewshed",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "x": -1,
+                "y": 0.5,
+                "visible": true
+            }
+        }
+    },
+    {
+        "module_category": "可视域",
+        "semantics_category": "可视域",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看最后一排最中间的座位能否看到舞台"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "overlay_toggle_viewshed",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "x": -1,
+                        "y": 0.5,
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "viewshed": {
+                        "position": [
+                            -1,
+                            0.5
+                        ],
+                        "isViewshed": true
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户视角切换已经完成",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看视角切换效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已经显示可视域"
+        }
+    }
+]

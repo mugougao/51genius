@@ -1,0 +1,932 @@
+[
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "回到俯视视角",
+        "thought": {
+            "routing_thought": "用户指令'回到俯视视角'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "回到俯视视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "重置俯视视角",
+        "thought": {
+            "routing_thought": "用户指令'重置俯视视角'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "重置俯视视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "从俯视视角看这个房间",
+        "thought": {
+            "routing_thought": "用户指令'从俯视视角看这个房间'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "从俯视视角看这个房间"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "变回俯视视野",
+        "thought": {
+            "routing_thought": "用户指令'变回俯视视野'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "变回俯视视野"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "相机还原到俯视",
+        "thought": {
+            "routing_thought": "用户指令'相机还原到俯视'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "相机还原到俯视"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "从上往下看",
+        "thought": {
+            "routing_thought": "用户指令'从上往下看'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "从上往下看"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "从高处往下看房间",
+        "thought": {
+            "routing_thought": "用户指令'从高处往下看房间'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "从高处往下看房间"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "切换成从上往下的视角",
+        "thought": {
+            "routing_thought": "用户指令'切换成从上往下的视角'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "切换成从上往下的视角"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "从高往低看一下",
+        "thought": {
+            "routing_thought": "用户指令'从高往低看一下'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "从高往低看一下"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "切换室内俯视",
+        "thought": {
+            "routing_thought": "用户指令'切换室内俯视'，直接匹配到'视角跳转'意图。适合直接进行工具调用。",
+            "action_thought": "视角切换到指定房间的俯视视角对应view_set_to_top_down工具，因为它能够将相机视角调整为从上方看下来的模式，完美符合用户的请求。该工具的输入为房间名，此处的房间为峰会厅，所以参数为'{\"room_name\":\"峰会厅\"}'"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "view_set_to_top_down",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "room_name": "峰会厅"
+            }
+        }
+    },
+    {
+        "module_category": "视角跳转",
+        "semantics_category": "室内俯视",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "切换室内俯视"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "view_set_to_top_down",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "room_name": "峰会厅"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "room_name": "峰会厅",
+                    "conversation_id": "templates_10_generalization_1099_cid5655",
+                    "CustomAPI": {
+                        "apiClassName": "GuoHuiCameraRegister",
+                        "apiFuncName": "GuoHuiCameraChangeRound",
+                        "args": {
+                            "floor": 6,
+                            "round": [
+                                [
+                                    -702.693774,
+                                    10690.387065,
+                                    78.285203
+                                ],
+                                [
+                                    -700.711854,
+                                    10636.593563,
+                                    78.285203
+                                ],
+                                [
+                                    -646.918352,
+                                    10638.575482,
+                                    78.285203
+                                ],
+                                [
+                                    -648.900272,
+                                    10692.368985,
+                                    78.285203
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户已经进行俯视视角切换",
+            "action_thought": "现在已经获取工具调用的返回信息,CustomAPI字段中包含镜头的参数，说明已经成功调用，下面需要提示用户查看切换后的视角"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看切换后的视角"
+        }
+    }
+]

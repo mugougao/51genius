@@ -1,0 +1,734 @@
+[
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "按名单为嘉宾安排座位",
+        "thought": {
+            "routing_thought": "用户指令'按名单为嘉宾安排座位'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "按名单为嘉宾安排座位"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "为嘉宾自动排座",
+        "thought": {
+            "routing_thought": "用户指令'为嘉宾自动排座'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "为嘉宾自动排座"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "自动排一下座",
+        "thought": {
+            "routing_thought": "用户指令'自动排一下座'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "自动排一下座"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "为嘉宾分配座位",
+        "thought": {
+            "routing_thought": "用户指令'为嘉宾分配座位'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "为嘉宾分配座位"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "自动布置嘉宾座位",
+        "thought": {
+            "routing_thought": "用户指令'自动布置嘉宾座位'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "自动布置嘉宾座位"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "安排座位",
+        "thought": {
+            "routing_thought": "用户指令'安排座位'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "安排座位"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "给每个人安排一个位置",
+        "thought": {
+            "routing_thought": "用户指令'给每个人安排一个位置'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "给每个人安排一个位置"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "生成一个座位安排",
+        "thought": {
+            "routing_thought": "用户指令'生成一个座位安排'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "生成一个座位安排"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "安排谁坐在哪儿",
+        "thought": {
+            "routing_thought": "用户指令'安排谁坐在哪儿'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "安排谁坐在哪儿"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "生成一下座位图",
+        "thought": {
+            "routing_thought": "用户指令'生成一下座位图'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "生成一下座位图"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "座次表做一下",
+        "thought": {
+            "routing_thought": "用户指令'座次表做一下'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "座次表做一下"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "坐席布局一下",
+        "thought": {
+            "routing_thought": "用户指令'坐席布局一下'，直接匹配到'排座'意图。适合直接进行工具调用。",
+            "action_thought": "排座意图对应layout_arrange_seating工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "layout_arrange_seating",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "排座",
+        "semantics_category": "排座",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "坐席布局一下"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "layout_arrange_seating",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示用户查看嘉宾座位排布方案",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示用户查看检查结果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请查看嘉宾座位排布方案"
+        }
+    }
+]

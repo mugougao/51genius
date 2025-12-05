@@ -1,0 +1,1218 @@
+[
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "模拟灯光方案",
+        "thought": {
+            "routing_thought": "用户指令'查看灯光方案'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。由于用户未指定灯光方案，默认使用论坛模式"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "模拟灯光方案"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "模拟灯光",
+        "thought": {
+            "routing_thought": "用户指令'模拟灯光'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。由于用户未指定灯光方案，默认使用论坛模式"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "模拟灯光"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "打开灯光效果",
+        "thought": {
+            "routing_thought": "用户指令'打开灯光效果'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。由于用户未指定灯光方案，默认使用论坛模式"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "打开灯光效果"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "查看灯光效果",
+        "thought": {
+            "routing_thought": "用户指令'查看灯光效果'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。由于用户未指定灯光方案，默认使用论坛模式"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "查看灯光效果"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "给我看看灯光方案",
+        "thought": {
+            "routing_thought": "用户指令'给我看看灯光方案'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。由于用户未指定灯光方案，默认使用论坛模式"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "给我看看灯光方案"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "模拟论坛模式灯光",
+        "thought": {
+            "routing_thought": "用户指令'模拟论坛模式灯光'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'论坛模式'，匹配到'论坛模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "模拟论坛模式灯光"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "查看论坛的灯光方案",
+        "thought": {
+            "routing_thought": "用户指令'查看论坛的灯光方案'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'论坛'，匹配到'论坛模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "查看论坛的灯光方案"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "有嘉宾访谈环节，给个灯光方案？",
+        "thought": {
+            "routing_thought": "用户指令'有嘉宾访谈环节，给个灯光方案？'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'嘉宾访谈环节'，模糊匹配到'论坛模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "有嘉宾访谈环节，给个灯光方案？"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看讨论环节的灯光效果",
+        "thought": {
+            "routing_thought": "用户指令'看看讨论环节的灯光效果'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'讨论环节'，模糊匹配到'论坛模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看讨论环节的灯光效果"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "展示均匀光线模式的灯光效果",
+        "thought": {
+            "routing_thought": "用户指令'展示均匀光线模式的灯光效果'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'均匀光线模式'，模糊匹配到'论坛模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "论坛模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "展示均匀光线模式的灯光效果"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "论坛模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "论坛模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示论坛模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "模拟发布会模式灯光",
+        "thought": {
+            "routing_thought": "用户指令'模拟发布会模式灯光'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'发布会模式'，匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "模拟发布会模式灯光"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "我准备开发布会，看看对应的灯光样式",
+        "thought": {
+            "routing_thought": "用户指令'我准备开发布会，看看对应的灯光样式'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'发布会'，匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "我准备开发布会，看看对应的灯光样式"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看发布会场景的灯光配置",
+        "thought": {
+            "routing_thought": "用户指令'看看发布会场景的灯光配置'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'发布会场景'，匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看发布会场景的灯光配置"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看主演讲时的灯光配置",
+        "thought": {
+            "routing_thought": "用户指令'看看主演讲时的灯光配置'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'主演讲'，匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看主演讲时的灯光配置"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看发布会的灯光什么样子",
+        "thought": {
+            "routing_thought": "用户指令'看看发布会的灯光什么样子'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'发布会模式'，匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看发布会的灯光什么样子"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看发布会的灯光什么样子",
+        "thought": {
+            "routing_thought": "用户指令'看看发布会的灯光什么样子'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'发布会模式'，匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看发布会的灯光什么样子"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看演讲用的灯光什么样子",
+        "thought": {
+            "routing_thought": "用户指令'看看演讲用的灯光什么样子'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'演讲用的灯光'，模糊匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看演讲用的灯光什么样子"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "显示舞台模式的灯光什么样子",
+        "thought": {
+            "routing_thought": "用户指令'显示舞台模式的灯光什么样子'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'舞台模式'，模糊匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "显示舞台模式的灯光什么样子"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "给我看一下主讲人上台的灯光样式",
+        "thought": {
+            "routing_thought": "用户指令'给我看一下主讲人上台的灯光样式'，直接匹配到'查看灯光方案'意图。适合直接进行工具调用。",
+            "action_thought": "查看灯光方案对应scene_set_lighting_scheme工具，该工具的输入是灯光方案名称,参数是scheme_id，值包括'论坛模式'，'发布会模式'。此处用户输入'主讲人上台的灯光样式'，模糊匹配到'发布会模式'。"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "scene_set_lighting_scheme",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                "scheme_id": "发布会模式"
+            }
+        }
+    },
+    {
+        "module_category": "舞美",
+        "semantics_category": "查看灯光方案",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "给我看一下主讲人上台的灯光样式"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "scene_set_lighting_scheme",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "scheme_id": "发布会模式"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "scheme_id": "发布会模式"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具，接下来需要提示已经完成灯光方案切换",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看灯光方案"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "已为您展示发布会模式"
+        }
+    }
+]

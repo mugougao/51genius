@@ -1,0 +1,842 @@
+[
+    
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "将主屏幕替换成弧形屏",
+            "thought": {
+                "routing_thought": "用户指令'将主屏幕替换成弧形屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到弧形屏，所以参数应该为screen_type='弧形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "弧形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "将主屏幕替换成弧形屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "弧形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "弧形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为弧形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "换成环绕感的曲面屏",
+            "thought": {
+                "routing_thought": "用户指令'换成环绕感的曲面屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'曲面屏'，模糊匹配为'弧形屏'，所以参数应该为screen_type='弧形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "弧形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "换成环绕感的曲面屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "弧形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "弧形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为弧形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "整一个弯屏",
+            "thought": {
+                "routing_thought": "用户指令'整一个弯屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'弯屏'，模糊匹配为'弧形屏'，所以参数应该为screen_type='弧形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "弧形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "整一个弯屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "弧形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "弧形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为弧形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "更换曲屏",
+            "thought": {
+                "routing_thought": "用户指令'更换曲屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'曲屏'，模糊匹配为'弧形屏'，所以参数应该为screen_type='弧形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "弧形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "更换曲屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "弧形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "弧形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为弧形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "将主屏幕替换成一主两副",
+            "thought": {
+                "routing_thought": "用户指令'将主屏幕替换成一主两副'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到一主两副，所以参数应该为screen_type='一主两副'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "一主两副"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "将主屏幕替换成一主两副"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "一主两副"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "一主两副"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为一主两副"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "配置一个主屏加两个副屏",
+            "thought": {
+                "routing_thought": "用户指令'配置一个主屏加两个副屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到一主两副，所以参数应该为screen_type='一主两副'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "一主两副"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "配置一个主屏加两个副屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "一主两副"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "一主两副"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为一主两副"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "部署三联屏，中间为主",
+            "thought": {
+                "routing_thought": "用户指令'部署三联屏，中间为主'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'三联屏'，模糊匹配为'一主两副'，所以参数应该为screen_type='一主两副'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "一主两副"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "部署三联屏，中间为主"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "一主两副"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "一主两副"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为一主两副"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "换成一大两小的屏幕组合",
+            "thought": {
+                "routing_thought": "用户指令'换成一大两小的屏幕组合'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'一大两小的屏幕组合'，模糊匹配为'一主两副'，所以参数应该为screen_type='一主两副'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "一主两副"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "换成一大两小的屏幕组合"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "一主两副"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "一主两副"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为一主两副"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "将主屏幕替换成矩形屏",
+            "thought": {
+                "routing_thought": "用户指令'将主屏幕替换成矩形屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到矩形屏，所以参数应该为screen_type='矩形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "矩形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "将主屏幕替换成矩形屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "矩形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "矩形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为矩形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "试一下普通的直屏",
+            "thought": {
+                "routing_thought": "用户指令'试一下普通的直屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'普通的直屏'，模糊匹配为'矩形屏'。所以参数应该为screen_type='矩形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "矩形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "试一下普通的直屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "矩形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "矩形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为矩形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "换成方屏",
+            "thought": {
+                "routing_thought": "用户指令'换成方屏'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'普通的直屏'，模糊匹配为'矩形屏'。所以参数应该为screen_type='矩形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "矩形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "换成方屏"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "矩形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "矩形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为矩形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                }
+            ],
+            "user_instruction": "换成不带弯的屏幕",
+            "thought": {
+                "routing_thought": "用户指令'换成不带弯的屏幕'，直接匹配到'替换屏幕'意图。适合直接进行工具调用。",
+                "action_thought": "替换屏幕意图对应scene_set_screen_type工具，用户提到'普通的直屏'，模糊匹配为'矩形屏'。所以参数应该为screen_type='矩形屏'"
+            },
+            "action": {
+                "action_type": "TOOL_CALL",
+                "tool_name": "scene_set_screen_type",
+                "parameters": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                    "screen_type": "矩形屏"
+                }
+            }
+        },
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [
+                {
+                    "role": "system",
+                    "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+                },
+                {
+                    "role": "user",
+                    "content": "换成不带弯的屏幕"
+                },
+                {
+                    "role": "assistant",
+                    "action": {
+                        "action_type": "TOOL_CALL",
+                        "tool_name": "scene_set_screen_type",
+                        "parameters": {
+                            "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                            "screen_type": "矩形屏"
+                        }
+                    }
+                },
+                {
+                    "role": "tool",
+                    "content": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade",
+                        "screen_type": "矩形屏"
+                    }
+                }
+            ],
+            "user_instruction": null,
+            "thought": {
+                "routing_thought": "已经成功调用工具，接下来需要提示用户已经完成屏幕更换",
+                "action_thought": "现在已经获取工具调用的返回信息，接下来需要告诉用户已经完成屏幕更换"
+            },
+            "action": {
+                "action_type": "DIRECT_ANSWER",
+                "final_answer": "已经将屏幕替换为矩形屏"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [],
+            "user_instruction": "更换屏幕",
+            "thought": {
+                "routing_thought": "用户指令'更换屏幕'，直接匹配到'替换屏幕'意图。这关联到'scene_set_screen_type'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的屏幕类型。",
+                "action_thought": "用户的指令中没有明确指定更换成什么屏幕类型。在没有上下文的情况下，我无法调用'scene_set_screen_type'工具。因此，我需要向用户提问以获取屏幕信息。"
+            },
+            "action": {
+                "action_type": "CLARIFICATION_QUESTION",
+                "final_answer": "请问您想更换成什么类型的屏幕呢？"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [],
+            "user_instruction": "改一下屏幕样式",
+            "thought": {
+                "routing_thought": "用户指令'改一下屏幕样式'，直接匹配到'替换屏幕'意图。这关联到'scene_set_screen_type'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的屏幕类型。",
+                "action_thought": "用户的指令中没有明确指定更换成什么屏幕类型。在没有上下文的情况下，我无法调用'scene_set_screen_type'工具。因此，我需要向用户提问以获取屏幕信息。"
+            },
+            "action": {
+                "action_type": "CLARIFICATION_QUESTION",
+                "final_answer": "请问您想更换成什么类型的屏幕呢？"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [],
+            "user_instruction": "改一下屏幕样式",
+            "thought": {
+                "routing_thought": "用户指令'改一下屏幕样式'，直接匹配到'替换屏幕'意图。这关联到'scene_set_screen_type'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的屏幕类型。",
+                "action_thought": "用户的指令中没有明确指定更换成什么屏幕类型。在没有上下文的情况下，我无法调用'scene_set_screen_type'工具。因此，我需要向用户提问以获取屏幕信息。"
+            },
+            "action": {
+                "action_type": "CLARIFICATION_QUESTION",
+                "final_answer": "请问您想更换成什么类型的屏幕呢？"
+            }
+        }
+,
+        {
+            "module_category": "舞美",
+            "semantics_category": "替换屏幕",
+            "conversation_history": [],
+            "user_instruction": "替换屏幕",
+            "thought": {
+                "routing_thought": "用户指令'改一下屏幕样式'，直接匹配到'替换屏幕'意图。这关联到'scene_set_screen_type'工具，我将调用该工具来执行相关操作，但该工具需要指定具体的屏幕类型。",
+                "action_thought": "用户的指令中没有明确指定更换成什么屏幕类型。在没有上下文的情况下，我无法调用'scene_set_screen_type'工具。因此，我需要向用户提问以获取屏幕信息。"
+            },
+            "action": {
+                "action_type": "CLARIFICATION_QUESTION",
+                "final_answer": "请问您想更换成什么类型的屏幕呢？"
+            }
+        }
+    ]

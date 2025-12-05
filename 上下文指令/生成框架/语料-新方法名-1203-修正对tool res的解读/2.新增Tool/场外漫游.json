@@ -1,0 +1,734 @@
+[
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "查看会场周边",
+        "thought": {
+            "routing_thought": "用户指令'在查看会场周边'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "查看会场周边"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "查看场外情况",
+        "thought": {
+            "routing_thought": "用户指令'查看场外情况'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "查看场外情况"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "浏览会场周边",
+        "thought": {
+            "routing_thought": "用户指令'浏览会场周边'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "浏览会场周边"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看外面环境",
+        "thought": {
+            "routing_thought": "用户指令'看看外面环境'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看外面环境"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "启动场外漫游",
+        "thought": {
+            "routing_thought": "用户指令'启动场外漫游'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "启动场外漫游"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "巡视周边",
+        "thought": {
+            "routing_thought": "用户指令'巡视周边'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "巡视周边"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "去外面看看",
+        "thought": {
+            "routing_thought": "用户指令'去外面看看'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "去外面看看"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "到周边转一下",
+        "thought": {
+            "routing_thought": "用户指令'到周边转一下'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "到周边转一下"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "我想看看会场外面",
+        "thought": {
+            "routing_thought": "用户指令'我想看看会场外面'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "我想看看会场外面"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "带我去周边逛逛",
+        "thought": {
+            "routing_thought": "用户指令'带我去周边逛逛'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "带我去周边逛逛"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "看看周边实景",
+        "thought": {
+            "routing_thought": "用户指令'看看周边实景'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "看看周边实景"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            }
+        ],
+        "user_instruction": "带我去场外逛逛",
+        "thought": {
+            "routing_thought": "用户指令'带我去场外逛逛'，直接匹配到'场外漫游'意图。适合直接进行工具调用。",
+            "action_thought": "场外漫游意图对应roam_start_outdoor_tour工具，该工具并无输入，直接调用即可"
+        },
+        "action": {
+            "action_type": "TOOL_CALL",
+            "tool_name": "roam_start_outdoor_tour",
+            "parameters": {
+                "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+            }
+        }
+    },
+    {
+        "module_category": "场外漫游",
+        "semantics_category": "场外漫游",
+        "conversation_history": [
+            {
+                "role": "system",
+                "content": "当前的User_ID为f7de6370-c69c-11f0-a204-0794026fcade，请在后续的对话中保持使用该User_ID。"
+            },
+            {
+                "role": "user",
+                "content": "带我去场外逛逛"
+            },
+            {
+                "role": "assistant",
+                "action": {
+                    "action_type": "TOOL_CALL",
+                    "tool_name": "roam_start_outdoor_tour",
+                    "parameters": {
+                        "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                    }
+                }
+            },
+            {
+                "role": "tool",
+                "content": {
+                    "conversation_id": "f7de6370-c69c-11f0-a204-0794026fcade"
+                }
+            }
+        ],
+        "user_instruction": null,
+        "thought": {
+            "routing_thought": "已经成功调用工具接下来需要提示用户漫游开始",
+            "action_thought": "现在已经获取工具调用的返回信息，接下来需要提示客户查看漫游效果"
+        },
+        "action": {
+            "action_type": "DIRECT_ANSWER",
+            "final_answer": "请跟随镜头查看会场周边情况"
+        }
+    }
+]
